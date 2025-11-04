@@ -3,6 +3,6 @@ Receiving file to received_data.txt...
 Sending request (attempt 1/5)...
 Connection established!
 Received EOF marker
-File received successfully: 6463538 bytes in 86.74s
-Throughput: 0.60 Mbps
+File received successfully: 6463538 bytes in 61.48s
+Throughput: 0.84 Mbps
 Client finished successfully

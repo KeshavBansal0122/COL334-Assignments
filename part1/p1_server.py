@@ -32,7 +32,7 @@ class ReliableUDPServer:
         self.setup_logging()
         
         # RTT estimation
-        self.estimated_rtt = INITIAL_TIMEOUT
+        self.estimated_rtt = -1
         self.dev_rtt = 0
         self.rto = INITIAL_TIMEOUT
         
@@ -84,6 +84,12 @@ class ReliableUDPServer:
     
     def update_rtt(self, sample_rtt):
         """Update RTT estimates using TCP-like algorithm"""
+        if self.estimated_rtt == -1:
+            self.estimated_rtt = sample_rtt
+            self.dev_rtt = sample_rtt/2
+            self.rto = sample_rtt*1.5
+            return
+        
         self.estimated_rtt = (1 - ALPHA) * self.estimated_rtt + ALPHA * sample_rtt
         self.dev_rtt = (1 - BETA) * self.dev_rtt + BETA * abs(sample_rtt - self.estimated_rtt)
         self.rto = self.estimated_rtt + K * self.dev_rtt

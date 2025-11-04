@@ -1,2001 +1,637 @@
 Server listening on 10.0.0.1:6555
 Sender Window Size: 5900 bytes
 Waiting for client request...
-Received request from ('10.0.0.2', 59992)
+Received request from ('10.0.0.2', 43834)
 Starting file transfer: 6463538 bytes
 Total packets to send: 5478
-Fast retransmit: seq 42480
-Timeout retransmit: seq 54280, RTO: 0.102s
-Timeout retransmit: seq 56640, RTO: 0.100s
-Timeout retransmit: seq 57820, RTO: 0.100s
-Timeout retransmit: seq 59000, RTO: 0.100s
-Fast retransmit: seq 56640
-Timeout retransmit: seq 60180, RTO: 0.100s
-Timeout retransmit: seq 61360, RTO: 0.100s
-Timeout retransmit: seq 63720, RTO: 0.100s
-Timeout retransmit: seq 64900, RTO: 0.100s
-Timeout retransmit: seq 66080, RTO: 0.100s
-Timeout retransmit: seq 79060, RTO: 0.100s
-Timeout retransmit: seq 80240, RTO: 0.100s
-Timeout retransmit: seq 81420, RTO: 0.100s
-Timeout retransmit: seq 82600, RTO: 0.100s
+Fast retransmit: seq 38940
+Timeout retransmit: seq 40120, RTO: 0.100s
+Timeout retransmit: seq 41300, RTO: 0.100s
+Timeout retransmit: seq 42480, RTO: 0.100s
+Timeout retransmit: seq 43660, RTO: 0.100s
+Fast retransmit: seq 41300
+Fast retransmit: seq 47200
+Fast retransmit: seq 59000
+Fast retransmit: seq 84960
 Timeout retransmit: seq 86140, RTO: 0.100s
 Timeout retransmit: seq 87320, RTO: 0.100s
 Timeout retransmit: seq 88500, RTO: 0.100s
 Timeout retransmit: seq 89680, RTO: 0.100s
-Fast retransmit: seq 92040
-Timeout retransmit: seq 93220, RTO: 0.100s
-Timeout retransmit: seq 94400, RTO: 0.100s
-Timeout retransmit: seq 95580, RTO: 0.100s
-Timeout retransmit: seq 96760, RTO: 0.100s
+Fast retransmit: seq 96760
 Timeout retransmit: seq 97940, RTO: 0.100s
-Timeout retransmit: seq 108560, RTO: 0.100s
-Timeout retransmit: seq 109740, RTO: 0.100s
-Timeout retransmit: seq 110920, RTO: 0.100s
-Timeout retransmit: seq 112100, RTO: 0.100s
-Timeout retransmit: seq 113280, RTO: 0.100s
-Fast retransmit: seq 118000
-Timeout retransmit: seq 129800, RTO: 0.100s
-Timeout retransmit: seq 130980, RTO: 0.100s
-Timeout retransmit: seq 132160, RTO: 0.100s
-Timeout retransmit: seq 140420, RTO: 0.100s
-Fast retransmit: seq 143960
-Timeout retransmit: seq 149860, RTO: 0.100s
-Timeout retransmit: seq 153400, RTO: 0.100s
-Timeout retransmit: seq 154580, RTO: 0.100s
-Fast retransmit: seq 153400
+Timeout retransmit: seq 99120, RTO: 0.100s
+Fast retransmit: seq 120360
+Fast retransmit: seq 140420
+Timeout retransmit: seq 141600, RTO: 0.100s
+Timeout retransmit: seq 142780, RTO: 0.100s
 Fast retransmit: seq 159300
-Timeout retransmit: seq 165200, RTO: 0.100s
-Timeout retransmit: seq 167560, RTO: 0.100s
-Timeout retransmit: seq 168740, RTO: 0.100s
-Timeout retransmit: seq 169920, RTO: 0.100s
-Fast retransmit: seq 167560
+Fast retransmit: seq 169920
 Timeout retransmit: seq 171100, RTO: 0.100s
 Timeout retransmit: seq 172280, RTO: 0.100s
-Timeout retransmit: seq 168740, RTO: 0.100s
-Timeout retransmit: seq 169920, RTO: 0.100s
-Fast retransmit: seq 173460
+Timeout retransmit: seq 173460, RTO: 0.100s
 Timeout retransmit: seq 174640, RTO: 0.100s
-Timeout retransmit: seq 175820, RTO: 0.100s
-Timeout retransmit: seq 177000, RTO: 0.100s
-Timeout retransmit: seq 178180, RTO: 0.100s
+Timeout retransmit: seq 169920, RTO: 0.100s
 Fast retransmit: seq 178180
-Timeout retransmit: seq 192340, RTO: 0.100s
+Timeout retransmit: seq 179360, RTO: 0.100s
+Timeout retransmit: seq 180540, RTO: 0.100s
+Fast retransmit: seq 194700
+Timeout retransmit: seq 198240, RTO: 0.100s
 Timeout retransmit: seq 199420, RTO: 0.100s
-Timeout retransmit: seq 200600, RTO: 0.100s
-Timeout retransmit: seq 201780, RTO: 0.100s
-Timeout retransmit: seq 202960, RTO: 0.100s
-Fast retransmit: seq 206500
-Timeout retransmit: seq 225380, RTO: 0.100s
-Timeout retransmit: seq 226560, RTO: 0.100s
-Timeout retransmit: seq 227740, RTO: 0.100s
-Timeout retransmit: seq 228920, RTO: 0.100s
-Timeout retransmit: seq 230100, RTO: 0.100s
-Fast retransmit: seq 231280
-Timeout retransmit: seq 251340, RTO: 0.100s
-Timeout retransmit: seq 252520, RTO: 0.100s
+Fast retransmit: seq 198240
+Fast retransmit: seq 219480
+Timeout retransmit: seq 220660, RTO: 0.100s
+Timeout retransmit: seq 221840, RTO: 0.100s
+Timeout retransmit: seq 223020, RTO: 0.100s
+Timeout retransmit: seq 224200, RTO: 0.100s
+Fast retransmit: seq 226560
+Fast retransmit: seq 232460
+Fast retransmit: seq 252520
 Timeout retransmit: seq 253700, RTO: 0.100s
-Timeout retransmit: seq 258420, RTO: 0.100s
-Timeout retransmit: seq 270220, RTO: 0.100s
-Timeout retransmit: seq 271400, RTO: 0.100s
-Timeout retransmit: seq 272580, RTO: 0.100s
-Timeout retransmit: seq 273760, RTO: 0.100s
-Timeout retransmit: seq 282020, RTO: 0.100s
-Timeout retransmit: seq 283200, RTO: 0.100s
-Timeout retransmit: seq 284380, RTO: 0.100s
-Timeout retransmit: seq 291460, RTO: 0.100s
-Timeout retransmit: seq 293820, RTO: 0.100s
-Fast retransmit: seq 299720
-Timeout retransmit: seq 300900, RTO: 0.100s
-Timeout retransmit: seq 302080, RTO: 0.100s
-Timeout retransmit: seq 303260, RTO: 0.100s
-Timeout retransmit: seq 304440, RTO: 0.100s
-Fast retransmit: seq 306800
-Timeout retransmit: seq 307980, RTO: 0.100s
-Timeout retransmit: seq 310340, RTO: 0.100s
-Fast retransmit: seq 310340
-Fast retransmit: seq 316240
-Timeout retransmit: seq 320960, RTO: 0.100s
-Fast retransmit: seq 322140
-Timeout retransmit: seq 323320, RTO: 0.100s
-Timeout retransmit: seq 324500, RTO: 0.100s
-Timeout retransmit: seq 325680, RTO: 0.100s
-Timeout retransmit: seq 326860, RTO: 0.100s
-Fast retransmit: seq 328040
-Timeout retransmit: seq 329220, RTO: 0.100s
-Timeout retransmit: seq 330400, RTO: 0.100s
-Timeout retransmit: seq 331580, RTO: 0.100s
-Timeout retransmit: seq 332760, RTO: 0.100s
-Fast retransmit: seq 336300
-Timeout retransmit: seq 346920, RTO: 0.100s
+Timeout retransmit: seq 254880, RTO: 0.100s
+Fast retransmit: seq 260780
+Timeout retransmit: seq 261960, RTO: 0.100s
+Timeout retransmit: seq 263140, RTO: 0.100s
+Fast retransmit: seq 320960
+Fast retransmit: seq 335120
+Timeout retransmit: seq 336300, RTO: 0.100s
+Timeout retransmit: seq 337480, RTO: 0.100s
+Timeout retransmit: seq 338660, RTO: 0.100s
+Timeout retransmit: seq 339840, RTO: 0.100s
+Fast retransmit: seq 338660
+Fast retransmit: seq 346920
 Timeout retransmit: seq 348100, RTO: 0.100s
-Fast retransmit: seq 355180
-Timeout retransmit: seq 356360, RTO: 0.100s
-Timeout retransmit: seq 357540, RTO: 0.100s
-Timeout retransmit: seq 358720, RTO: 0.100s
-Timeout retransmit: seq 359900, RTO: 0.100s
-Timeout retransmit: seq 365800, RTO: 0.100s
-Timeout retransmit: seq 366980, RTO: 0.100s
-Timeout retransmit: seq 368160, RTO: 0.100s
-Timeout retransmit: seq 369340, RTO: 0.100s
-Timeout retransmit: seq 370520, RTO: 0.100s
-Fast retransmit: seq 372880
+Timeout retransmit: seq 349280, RTO: 0.100s
+Fast retransmit: seq 352820
 Timeout retransmit: seq 374060, RTO: 0.100s
 Timeout retransmit: seq 375240, RTO: 0.100s
 Timeout retransmit: seq 376420, RTO: 0.100s
-Fast retransmit: seq 378780
-Timeout retransmit: seq 384680, RTO: 0.100s
-Timeout retransmit: seq 385860, RTO: 0.100s
-Timeout retransmit: seq 387040, RTO: 0.100s
-Timeout retransmit: seq 388220, RTO: 0.100s
+Fast retransmit: seq 388220
 Timeout retransmit: seq 389400, RTO: 0.100s
-Timeout retransmit: seq 400020, RTO: 0.100s
-Timeout retransmit: seq 404740, RTO: 0.100s
-Timeout retransmit: seq 422440, RTO: 0.100s
-Timeout retransmit: seq 424800, RTO: 0.100s
-Timeout retransmit: seq 425980, RTO: 0.100s
-Timeout retransmit: seq 427160, RTO: 0.100s
-Fast retransmit: seq 428340
-Fast retransmit: seq 436600
+Timeout retransmit: seq 390580, RTO: 0.100s
+Fast retransmit: seq 397660
+Timeout retransmit: seq 398840, RTO: 0.100s
+Timeout retransmit: seq 436600, RTO: 0.100s
 Timeout retransmit: seq 437780, RTO: 0.100s
-Timeout retransmit: seq 442500, RTO: 0.100s
-Fast retransmit: seq 442500
-Timeout retransmit: seq 443680, RTO: 0.100s
-Timeout retransmit: seq 444860, RTO: 0.100s
-Timeout retransmit: seq 446040, RTO: 0.100s
-Timeout retransmit: seq 447220, RTO: 0.100s
-Fast retransmit: seq 450760
-Timeout retransmit: seq 451940, RTO: 0.100s
-Timeout retransmit: seq 454300, RTO: 0.100s
-Timeout retransmit: seq 455480, RTO: 0.100s
-Fast retransmit: seq 460200
-Fast retransmit: seq 462560
-Timeout retransmit: seq 463740, RTO: 0.100s
-Timeout retransmit: seq 464920, RTO: 0.100s
-Timeout retransmit: seq 466100, RTO: 0.100s
-Fast retransmit: seq 468460
-Timeout retransmit: seq 469640, RTO: 0.100s
-Timeout retransmit: seq 470820, RTO: 0.100s
-Timeout retransmit: seq 472000, RTO: 0.100s
-Timeout retransmit: seq 473180, RTO: 0.100s
-Timeout retransmit: seq 477900, RTO: 0.100s
-Timeout retransmit: seq 479080, RTO: 0.100s
-Timeout retransmit: seq 480260, RTO: 0.100s
+Timeout retransmit: seq 438960, RTO: 0.100s
+Timeout retransmit: seq 441320, RTO: 0.100s
+Fast retransmit: seq 464920
+Fast retransmit: seq 480260
 Timeout retransmit: seq 481440, RTO: 0.100s
-Timeout retransmit: seq 482620, RTO: 0.100s
-Timeout retransmit: seq 490880, RTO: 0.100s
-Timeout retransmit: seq 499140, RTO: 0.100s
-Fast retransmit: seq 507400
-Timeout retransmit: seq 508580, RTO: 0.100s
-Timeout retransmit: seq 509760, RTO: 0.100s
-Timeout retransmit: seq 518020, RTO: 0.100s
-Timeout retransmit: seq 519200, RTO: 0.100s
-Timeout retransmit: seq 522740, RTO: 0.100s
-Timeout retransmit: seq 525100, RTO: 0.100s
-Timeout retransmit: seq 526280, RTO: 0.100s
-Timeout retransmit: seq 527460, RTO: 0.100s
-Fast retransmit: seq 535720
-Timeout retransmit: seq 536900, RTO: 0.100s
-Timeout retransmit: seq 540440, RTO: 0.100s
-Timeout retransmit: seq 543980, RTO: 0.100s
-Timeout retransmit: seq 545160, RTO: 0.100s
-Timeout retransmit: seq 547520, RTO: 0.100s
-Fast retransmit: seq 551060
-Fast retransmit: seq 568760
-Timeout retransmit: seq 586460, RTO: 0.100s
-Timeout retransmit: seq 594720, RTO: 0.100s
-Timeout retransmit: seq 595900, RTO: 0.100s
-Timeout retransmit: seq 598260, RTO: 0.100s
-Timeout retransmit: seq 599440, RTO: 0.100s
-Fast retransmit: seq 602980
-Timeout retransmit: seq 606520, RTO: 0.100s
-Timeout retransmit: seq 607700, RTO: 0.100s
-Fast retransmit: seq 608880
-Timeout retransmit: seq 610060, RTO: 0.100s
-Fast retransmit: seq 618320
-Fast retransmit: seq 627760
-Timeout retransmit: seq 633660, RTO: 0.100s
-Fast retransmit: seq 633660
-Timeout retransmit: seq 634840, RTO: 0.100s
-Timeout retransmit: seq 636020, RTO: 0.100s
-Timeout retransmit: seq 637200, RTO: 0.100s
-Fast retransmit: seq 639560
-Timeout retransmit: seq 640740, RTO: 0.100s
-Timeout retransmit: seq 641920, RTO: 0.100s
-Fast retransmit: seq 646640
-Timeout retransmit: seq 647820, RTO: 0.100s
-Timeout retransmit: seq 649000, RTO: 0.100s
-Fast retransmit: seq 653720
-Timeout retransmit: seq 656080, RTO: 0.100s
-Timeout retransmit: seq 657260, RTO: 0.100s
-Timeout retransmit: seq 658440, RTO: 0.100s
-Fast retransmit: seq 659620
-Timeout retransmit: seq 660800, RTO: 0.100s
-Timeout retransmit: seq 669060, RTO: 0.100s
-Timeout retransmit: seq 670240, RTO: 0.100s
-Fast retransmit: seq 669060
-Fast retransmit: seq 680860
-Timeout retransmit: seq 682040, RTO: 0.100s
-Timeout retransmit: seq 695020, RTO: 0.100s
-Timeout retransmit: seq 696200, RTO: 0.100s
-Timeout retransmit: seq 697380, RTO: 0.100s
-Timeout retransmit: seq 698560, RTO: 0.100s
-Fast retransmit: seq 700920
-Timeout retransmit: seq 705640, RTO: 0.100s
-Timeout retransmit: seq 706820, RTO: 0.100s
-Timeout retransmit: seq 708000, RTO: 0.100s
-Timeout retransmit: seq 709180, RTO: 0.100s
-Timeout retransmit: seq 710360, RTO: 0.100s
-Fast retransmit: seq 706820
-Timeout retransmit: seq 720980, RTO: 0.100s
-Timeout retransmit: seq 722160, RTO: 0.100s
-Timeout retransmit: seq 723340, RTO: 0.100s
-Timeout retransmit: seq 724520, RTO: 0.100s
-Timeout retransmit: seq 725700, RTO: 0.100s
-Timeout retransmit: seq 730420, RTO: 0.100s
-Fast retransmit: seq 732780
-Timeout retransmit: seq 733960, RTO: 0.100s
-Timeout retransmit: seq 735140, RTO: 0.100s
-Timeout retransmit: seq 736320, RTO: 0.100s
-Timeout retransmit: seq 737500, RTO: 0.100s
-Timeout retransmit: seq 741040, RTO: 0.100s
-Timeout retransmit: seq 742220, RTO: 0.100s
-Timeout retransmit: seq 743400, RTO: 0.100s
-Fast retransmit: seq 748120
-Timeout retransmit: seq 749300, RTO: 0.100s
-Timeout retransmit: seq 752840, RTO: 0.100s
-Timeout retransmit: seq 755200, RTO: 0.100s
-Timeout retransmit: seq 756380, RTO: 0.100s
-Timeout retransmit: seq 757560, RTO: 0.100s
-Timeout retransmit: seq 758740, RTO: 0.100s
-Timeout retransmit: seq 759920, RTO: 0.100s
-Timeout retransmit: seq 761100, RTO: 0.100s
-Timeout retransmit: seq 762280, RTO: 0.100s
-Timeout retransmit: seq 763460, RTO: 0.100s
-Timeout retransmit: seq 764640, RTO: 0.100s
-Timeout retransmit: seq 765820, RTO: 0.100s
+Fast retransmit: seq 509760
+Fast retransmit: seq 538080
+Timeout retransmit: seq 542800, RTO: 0.100s
+Fast retransmit: seq 542800
+Fast retransmit: seq 561680
+Fast retransmit: seq 597080
+Fast retransmit: seq 610060
+Fast retransmit: seq 624220
+Timeout retransmit: seq 625400, RTO: 0.100s
+Timeout retransmit: seq 626580, RTO: 0.100s
+Fast retransmit: seq 637200
+Fast retransmit: seq 660800
+Timeout retransmit: seq 663160, RTO: 0.100s
+Timeout retransmit: seq 664340, RTO: 0.100s
+Timeout retransmit: seq 665520, RTO: 0.100s
+Fast retransmit: seq 692660
+Timeout retransmit: seq 716260, RTO: 0.100s
+Timeout retransmit: seq 717440, RTO: 0.100s
+Timeout retransmit: seq 718620, RTO: 0.100s
+Timeout retransmit: seq 719800, RTO: 0.100s
+Fast retransmit: seq 722160
+Fast retransmit: seq 728060
 Fast retransmit: seq 761100
-Fast retransmit: seq 767000
-Timeout retransmit: seq 775260, RTO: 0.100s
-Timeout retransmit: seq 776440, RTO: 0.100s
-Timeout retransmit: seq 777620, RTO: 0.100s
-Timeout retransmit: seq 782340, RTO: 0.100s
-Timeout retransmit: seq 783520, RTO: 0.100s
-Timeout retransmit: seq 784700, RTO: 0.100s
-Timeout retransmit: seq 785880, RTO: 0.100s
-Timeout retransmit: seq 787060, RTO: 0.100s
-Fast retransmit: seq 782340
-Timeout retransmit: seq 783520, RTO: 0.100s
-Fast retransmit: seq 788240
-Timeout retransmit: seq 796500, RTO: 0.100s
-Timeout retransmit: seq 797680, RTO: 0.100s
-Fast retransmit: seq 801220
-Timeout retransmit: seq 802400, RTO: 0.100s
-Fast retransmit: seq 807120
-Timeout retransmit: seq 815380, RTO: 0.100s
-Timeout retransmit: seq 816560, RTO: 0.100s
-Timeout retransmit: seq 817740, RTO: 0.100s
-Timeout retransmit: seq 818920, RTO: 0.100s
-Timeout retransmit: seq 820100, RTO: 0.100s
-Timeout retransmit: seq 827180, RTO: 0.100s
-Timeout retransmit: seq 829540, RTO: 0.100s
-Timeout retransmit: seq 830720, RTO: 0.100s
-Fast retransmit: seq 834260
-Timeout retransmit: seq 838980, RTO: 0.100s
-Fast retransmit: seq 838980
-Timeout retransmit: seq 840160, RTO: 0.100s
-Timeout retransmit: seq 841340, RTO: 0.100s
-Fast retransmit: seq 847240
-Timeout retransmit: seq 848420, RTO: 0.100s
-Timeout retransmit: seq 849600, RTO: 0.100s
-Timeout retransmit: seq 850780, RTO: 0.100s
-Timeout retransmit: seq 851960, RTO: 0.100s
-Fast retransmit: seq 853140
-Timeout retransmit: seq 854320, RTO: 0.100s
-Timeout retransmit: seq 855500, RTO: 0.100s
-Timeout retransmit: seq 856680, RTO: 0.100s
-Timeout retransmit: seq 857860, RTO: 0.100s
-Fast retransmit: seq 860220
-Timeout retransmit: seq 869660, RTO: 0.100s
-Timeout retransmit: seq 870840, RTO: 0.100s
-Timeout retransmit: seq 875560, RTO: 0.100s
-Timeout retransmit: seq 876740, RTO: 0.100s
-Fast retransmit: seq 883820
+Timeout retransmit: seq 762280, RTO: 0.100s
+Fast retransmit: seq 778800
+Fast retransmit: seq 795320
+Fast retransmit: seq 817740
+Fast retransmit: seq 889720
 Timeout retransmit: seq 890900, RTO: 0.100s
 Timeout retransmit: seq 892080, RTO: 0.100s
-Timeout retransmit: seq 893260, RTO: 0.100s
-Fast retransmit: seq 890900
-Timeout retransmit: seq 894440, RTO: 0.100s
-Timeout retransmit: seq 895620, RTO: 0.100s
-Fast retransmit: seq 896800
-Timeout retransmit: seq 897980, RTO: 0.100s
-Timeout retransmit: seq 899160, RTO: 0.100s
-Timeout retransmit: seq 900340, RTO: 0.100s
-Timeout retransmit: seq 901520, RTO: 0.100s
-Fast retransmit: seq 905060
+Timeout retransmit: seq 902700, RTO: 0.100s
+Timeout retransmit: seq 903880, RTO: 0.100s
+Timeout retransmit: seq 905060, RTO: 0.100s
 Timeout retransmit: seq 906240, RTO: 0.100s
 Timeout retransmit: seq 907420, RTO: 0.100s
-Timeout retransmit: seq 908600, RTO: 0.100s
-Fast retransmit: seq 912140
-Timeout retransmit: seq 913320, RTO: 0.100s
-Timeout retransmit: seq 914500, RTO: 0.100s
-Timeout retransmit: seq 915680, RTO: 0.100s
-Timeout retransmit: seq 916860, RTO: 0.100s
-Fast retransmit: seq 918040
-Fast retransmit: seq 925120
-Timeout retransmit: seq 926300, RTO: 0.100s
+Fast retransmit: seq 908600
+Fast retransmit: seq 915680
 Fast retransmit: seq 934560
-Fast retransmit: seq 942820
-Timeout retransmit: seq 944000, RTO: 0.100s
-Timeout retransmit: seq 945180, RTO: 0.100s
-Timeout retransmit: seq 946360, RTO: 0.100s
-Timeout retransmit: seq 947540, RTO: 0.100s
-Timeout retransmit: seq 942820, RTO: 0.100s
-Fast retransmit: seq 948720
-Fast retransmit: seq 954620
-Timeout retransmit: seq 956980, RTO: 0.100s
-Timeout retransmit: seq 958160, RTO: 0.100s
-Timeout retransmit: seq 959340, RTO: 0.100s
-Fast retransmit: seq 960520
-Timeout retransmit: seq 961700, RTO: 0.100s
-Fast retransmit: seq 968780
-Timeout retransmit: seq 969960, RTO: 0.100s
-Timeout retransmit: seq 971140, RTO: 0.100s
-Timeout retransmit: seq 972320, RTO: 0.100s
-Timeout retransmit: seq 973500, RTO: 0.100s
-Fast retransmit: seq 974680
-Fast retransmit: seq 982940
-Timeout retransmit: seq 984120, RTO: 0.100s
-Timeout retransmit: seq 985300, RTO: 0.100s
-Fast retransmit: seq 988840
-Fast retransmit: seq 994740
-Timeout retransmit: seq 995920, RTO: 0.100s
-Timeout retransmit: seq 997100, RTO: 0.100s
-Timeout retransmit: seq 999460, RTO: 0.100s
-Fast retransmit: seq 999460
-Timeout retransmit: seq 1001820, RTO: 0.100s
-Fast retransmit: seq 1005360
-Timeout retransmit: seq 1010080, RTO: 0.100s
-Timeout retransmit: seq 1026600, RTO: 0.100s
-Timeout retransmit: seq 1027780, RTO: 0.100s
-Timeout retransmit: seq 1036040, RTO: 0.100s
-Timeout retransmit: seq 1037220, RTO: 0.100s
-Fast retransmit: seq 1039580
-Timeout retransmit: seq 1047840, RTO: 0.100s
-Timeout retransmit: seq 1049020, RTO: 0.100s
-Timeout retransmit: seq 1050200, RTO: 0.100s
-Fast retransmit: seq 1054920
-Timeout retransmit: seq 1056100, RTO: 0.100s
-Timeout retransmit: seq 1057280, RTO: 0.100s
+Fast retransmit: seq 985300
+Timeout retransmit: seq 986480, RTO: 0.100s
+Fast retransmit: seq 1003000
+Fast retransmit: seq 1026600
+Timeout retransmit: seq 1030140, RTO: 0.100s
+Timeout retransmit: seq 1031320, RTO: 0.100s
+Fast retransmit: seq 1030140
+Fast retransmit: seq 1057280
 Timeout retransmit: seq 1058460, RTO: 0.100s
 Timeout retransmit: seq 1059640, RTO: 0.100s
-Fast retransmit: seq 1060820
+Timeout retransmit: seq 1060820, RTO: 0.100s
 Timeout retransmit: seq 1062000, RTO: 0.100s
-Timeout retransmit: seq 1063180, RTO: 0.100s
-Fast retransmit: seq 1062000
-Timeout retransmit: seq 1064360, RTO: 0.100s
-Timeout retransmit: seq 1065540, RTO: 0.100s
-Timeout retransmit: seq 1066720, RTO: 0.100s
-Fast retransmit: seq 1073800
-Timeout retransmit: seq 1074980, RTO: 0.100s
-Timeout retransmit: seq 1076160, RTO: 0.100s
-Timeout retransmit: seq 1077340, RTO: 0.100s
-Timeout retransmit: seq 1078520, RTO: 0.100s
-Fast retransmit: seq 1074980
-Fast retransmit: seq 1080880
-Timeout retransmit: seq 1082060, RTO: 0.100s
-Timeout retransmit: seq 1083240, RTO: 0.100s
-Timeout retransmit: seq 1084420, RTO: 0.100s
-Timeout retransmit: seq 1085600, RTO: 0.100s
-Timeout retransmit: seq 1080880, RTO: 0.100s
-Fast retransmit: seq 1086780
-Timeout retransmit: seq 1102120, RTO: 0.100s
-Fast retransmit: seq 1109200
-Fast retransmit: seq 1117460
-Timeout retransmit: seq 1118640, RTO: 0.100s
-Timeout retransmit: seq 1117460, RTO: 0.100s
-Timeout retransmit: seq 1122180, RTO: 0.100s
-Fast retransmit: seq 1122180
-Timeout retransmit: seq 1128080, RTO: 0.100s
-Timeout retransmit: seq 1129260, RTO: 0.100s
-Timeout retransmit: seq 1130440, RTO: 0.100s
-Timeout retransmit: seq 1131620, RTO: 0.100s
+Fast retransmit: seq 1103300
+Timeout retransmit: seq 1104480, RTO: 0.100s
+Timeout retransmit: seq 1105660, RTO: 0.100s
+Fast retransmit: seq 1112740
+Timeout retransmit: seq 1113920, RTO: 0.100s
+Fast retransmit: seq 1132800
+Timeout retransmit: seq 1133980, RTO: 0.100s
+Timeout retransmit: seq 1135160, RTO: 0.100s
+Timeout retransmit: seq 1136340, RTO: 0.100s
+Timeout retransmit: seq 1137520, RTO: 0.100s
 Timeout retransmit: seq 1132800, RTO: 0.100s
-Fast retransmit: seq 1128080
-Fast retransmit: seq 1133980
-Fast retransmit: seq 1139880
-Timeout retransmit: seq 1143420, RTO: 0.100s
-Timeout retransmit: seq 1144600, RTO: 0.100s
-Fast retransmit: seq 1151680
-Fast retransmit: seq 1152860
-Timeout retransmit: seq 1154040, RTO: 0.100s
-Timeout retransmit: seq 1155220, RTO: 0.100s
-Timeout retransmit: seq 1156400, RTO: 0.100s
-Timeout retransmit: seq 1157580, RTO: 0.100s
-Fast retransmit: seq 1158760
+Timeout retransmit: seq 1133980, RTO: 0.100s
+Timeout retransmit: seq 1135160, RTO: 0.100s
+Fast retransmit: seq 1148140
+Timeout retransmit: seq 1149320, RTO: 0.100s
+Fast retransmit: seq 1157580
+Timeout retransmit: seq 1158760, RTO: 0.100s
+Timeout retransmit: seq 1162300, RTO: 0.100s
 Fast retransmit: seq 1162300
-Timeout retransmit: seq 1163480, RTO: 0.100s
-Timeout retransmit: seq 1164660, RTO: 0.100s
-Timeout retransmit: seq 1165840, RTO: 0.100s
-Timeout retransmit: seq 1167020, RTO: 0.100s
-Fast retransmit: seq 1168200
-Timeout retransmit: seq 1172920, RTO: 0.100s
-Fast retransmit: seq 1172920
-Timeout retransmit: seq 1174100, RTO: 0.100s
-Timeout retransmit: seq 1175280, RTO: 0.100s
-Timeout retransmit: seq 1176460, RTO: 0.100s
-Timeout retransmit: seq 1177640, RTO: 0.100s
-Fast retransmit: seq 1180000
-Fast retransmit: seq 1189440
-Fast retransmit: seq 1201240
+Fast retransmit: seq 1200060
+Timeout retransmit: seq 1201240, RTO: 0.100s
 Timeout retransmit: seq 1202420, RTO: 0.100s
-Timeout retransmit: seq 1203600, RTO: 0.100s
-Timeout retransmit: seq 1204780, RTO: 0.100s
-Fast retransmit: seq 1208320
-Fast retransmit: seq 1213040
-Timeout retransmit: seq 1220120, RTO: 0.100s
-Timeout retransmit: seq 1221300, RTO: 0.100s
-Timeout retransmit: seq 1222480, RTO: 0.100s
-Fast retransmit: seq 1220120
-Timeout retransmit: seq 1223660, RTO: 0.100s
-Timeout retransmit: seq 1224840, RTO: 0.100s
-Fast retransmit: seq 1228380
-Timeout retransmit: seq 1229560, RTO: 0.100s
-Timeout retransmit: seq 1230740, RTO: 0.100s
+Fast retransmit: seq 1210680
+Fast retransmit: seq 1230740
 Timeout retransmit: seq 1231920, RTO: 0.100s
-Timeout retransmit: seq 1233100, RTO: 0.100s
-Timeout retransmit: seq 1228380, RTO: 0.100s
-Fast retransmit: seq 1235460
-Fast retransmit: seq 1239000
-Fast retransmit: seq 1244900
-Fast retransmit: seq 1249620
-Timeout retransmit: seq 1253160, RTO: 0.100s
-Timeout retransmit: seq 1254340, RTO: 0.100s
-Timeout retransmit: seq 1257880, RTO: 0.100s
-Timeout retransmit: seq 1259060, RTO: 0.100s
-Timeout retransmit: seq 1262600, RTO: 0.100s
-Fast retransmit: seq 1273220
-Timeout retransmit: seq 1296820, RTO: 0.100s
-Fast retransmit: seq 1302720
-Timeout retransmit: seq 1303900, RTO: 0.100s
-Timeout retransmit: seq 1305080, RTO: 0.100s
-Timeout retransmit: seq 1306260, RTO: 0.100s
-Timeout retransmit: seq 1307440, RTO: 0.100s
-Fast retransmit: seq 1308620
-Timeout retransmit: seq 1312160, RTO: 0.100s
-Timeout retransmit: seq 1313340, RTO: 0.100s
-Fast retransmit: seq 1312160
-Timeout retransmit: seq 1314520, RTO: 0.100s
-Timeout retransmit: seq 1315700, RTO: 0.100s
-Timeout retransmit: seq 1316880, RTO: 0.100s
-Fast retransmit: seq 1320420
-Timeout retransmit: seq 1321600, RTO: 0.100s
-Timeout retransmit: seq 1322780, RTO: 0.100s
-Timeout retransmit: seq 1323960, RTO: 0.100s
-Fast retransmit: seq 1327500
-Timeout retransmit: seq 1332220, RTO: 0.100s
-Timeout retransmit: seq 1346380, RTO: 0.100s
-Timeout retransmit: seq 1347560, RTO: 0.100s
-Timeout retransmit: seq 1365260, RTO: 0.100s
-Timeout retransmit: seq 1369980, RTO: 0.100s
-Timeout retransmit: seq 1371160, RTO: 0.100s
-Timeout retransmit: seq 1372340, RTO: 0.100s
-Timeout retransmit: seq 1373520, RTO: 0.100s
-Timeout retransmit: seq 1374700, RTO: 0.100s
-Timeout retransmit: seq 1375880, RTO: 0.100s
-Fast retransmit: seq 1373520
-Timeout retransmit: seq 1377060, RTO: 0.100s
-Timeout retransmit: seq 1374700, RTO: 0.100s
-Fast retransmit: seq 1386500
-Fast retransmit: seq 1392400
-Timeout retransmit: seq 1393580, RTO: 0.100s
-Timeout retransmit: seq 1401840, RTO: 0.100s
-Timeout retransmit: seq 1403020, RTO: 0.100s
-Fast retransmit: seq 1405380
-Timeout retransmit: seq 1406560, RTO: 0.100s
-Timeout retransmit: seq 1410100, RTO: 0.100s
-Fast retransmit: seq 1410100
-Timeout retransmit: seq 1413640, RTO: 0.100s
-Timeout retransmit: seq 1414820, RTO: 0.100s
-Timeout retransmit: seq 1416000, RTO: 0.100s
-Timeout retransmit: seq 1417180, RTO: 0.100s
-Timeout retransmit: seq 1418360, RTO: 0.100s
-Timeout retransmit: seq 1428980, RTO: 0.100s
-Timeout retransmit: seq 1430160, RTO: 0.100s
-Timeout retransmit: seq 1431340, RTO: 0.100s
-Timeout retransmit: seq 1432520, RTO: 0.100s
-Timeout retransmit: seq 1433700, RTO: 0.100s
-Fast retransmit: seq 1436060
-Timeout retransmit: seq 1437240, RTO: 0.100s
-Timeout retransmit: seq 1438420, RTO: 0.100s
-Timeout retransmit: seq 1439600, RTO: 0.100s
-Timeout retransmit: seq 1444320, RTO: 0.100s
-Timeout retransmit: seq 1445500, RTO: 0.100s
+Fast retransmit: seq 1237820
+Fast retransmit: seq 1248440
+Fast retransmit: seq 1255520
+Fast retransmit: seq 1296820
+Fast retransmit: seq 1318060
+Timeout retransmit: seq 1319240, RTO: 0.100s
+Fast retransmit: seq 1323960
+Fast retransmit: seq 1349920
+Timeout retransmit: seq 1351100, RTO: 0.100s
+Timeout retransmit: seq 1352280, RTO: 0.100s
+Fast retransmit: seq 1390040
+Fast retransmit: seq 1430160
+Fast retransmit: seq 1445500
 Timeout retransmit: seq 1446680, RTO: 0.100s
-Timeout retransmit: seq 1447860, RTO: 0.100s
-Timeout retransmit: seq 1449040, RTO: 0.100s
-Fast retransmit: seq 1457300
-Timeout retransmit: seq 1459660, RTO: 0.100s
-Timeout retransmit: seq 1460840, RTO: 0.100s
-Timeout retransmit: seq 1462020, RTO: 0.100s
-Fast retransmit: seq 1459660
-Timeout retransmit: seq 1464380, RTO: 0.100s
-Timeout retransmit: seq 1466740, RTO: 0.100s
-Timeout retransmit: seq 1467920, RTO: 0.100s
-Timeout retransmit: seq 1472640, RTO: 0.100s
-Timeout retransmit: seq 1473820, RTO: 0.100s
-Fast retransmit: seq 1478540
+Fast retransmit: seq 1484440
 Timeout retransmit: seq 1485620, RTO: 0.100s
-Timeout retransmit: seq 1491520, RTO: 0.100s
-Timeout retransmit: seq 1492700, RTO: 0.100s
-Timeout retransmit: seq 1493880, RTO: 0.100s
-Timeout retransmit: seq 1495060, RTO: 0.100s
-Fast retransmit: seq 1497420
-Timeout retransmit: seq 1498600, RTO: 0.100s
-Timeout retransmit: seq 1499780, RTO: 0.100s
-Timeout retransmit: seq 1500960, RTO: 0.100s
-Timeout retransmit: seq 1502140, RTO: 0.100s
-Timeout retransmit: seq 1508040, RTO: 0.100s
-Timeout retransmit: seq 1509220, RTO: 0.100s
-Timeout retransmit: seq 1511580, RTO: 0.100s
-Timeout retransmit: seq 1512760, RTO: 0.100s
-Timeout retransmit: seq 1515120, RTO: 0.100s
-Fast retransmit: seq 1521020
-Fast retransmit: seq 1526920
-Fast retransmit: seq 1534000
+Fast retransmit: seq 1506860
+Fast retransmit: seq 1529280
+Timeout retransmit: seq 1530460, RTO: 0.100s
+Timeout retransmit: seq 1531640, RTO: 0.100s
+Timeout retransmit: seq 1532820, RTO: 0.100s
+Timeout retransmit: seq 1534000, RTO: 0.100s
+Fast retransmit: seq 1535180
 Fast retransmit: seq 1537540
-Timeout retransmit: seq 1544620, RTO: 0.100s
+Timeout retransmit: seq 1538720, RTO: 0.100s
+Timeout retransmit: seq 1539900, RTO: 0.100s
+Fast retransmit: seq 1544620
 Timeout retransmit: seq 1545800, RTO: 0.100s
 Timeout retransmit: seq 1546980, RTO: 0.100s
+Timeout retransmit: seq 1548160, RTO: 0.100s
+Fast retransmit: seq 1550520
+Fast retransmit: seq 1552880
 Timeout retransmit: seq 1554060, RTO: 0.100s
-Timeout retransmit: seq 1555240, RTO: 0.100s
-Timeout retransmit: seq 1558780, RTO: 0.100s
-Timeout retransmit: seq 1559960, RTO: 0.100s
-Timeout retransmit: seq 1574120, RTO: 0.100s
-Timeout retransmit: seq 1575300, RTO: 0.100s
-Timeout retransmit: seq 1576480, RTO: 0.100s
-Fast retransmit: seq 1581200
-Fast retransmit: seq 1587100
-Fast retransmit: seq 1594180
-Timeout retransmit: seq 1595360, RTO: 0.100s
-Timeout retransmit: seq 1596540, RTO: 0.100s
-Timeout retransmit: seq 1597720, RTO: 0.100s
-Timeout retransmit: seq 1598900, RTO: 0.100s
-Timeout retransmit: seq 1594180, RTO: 0.100s
-Fast retransmit: seq 1600080
-Timeout retransmit: seq 1602440, RTO: 0.100s
-Timeout retransmit: seq 1603620, RTO: 0.100s
-Timeout retransmit: seq 1604800, RTO: 0.100s
-Timeout retransmit: seq 1605980, RTO: 0.100s
-Fast retransmit: seq 1605980
-Timeout retransmit: seq 1607160, RTO: 0.100s
-Fast retransmit: seq 1616600
-Timeout retransmit: seq 1620140, RTO: 0.100s
-Timeout retransmit: seq 1621320, RTO: 0.100s
-Timeout retransmit: seq 1627220, RTO: 0.100s
-Timeout retransmit: seq 1628400, RTO: 0.100s
-Timeout retransmit: seq 1629580, RTO: 0.100s
-Timeout retransmit: seq 1630760, RTO: 0.100s
-Fast retransmit: seq 1633120
-Timeout retransmit: seq 1656720, RTO: 0.100s
-Timeout retransmit: seq 1657900, RTO: 0.100s
-Timeout retransmit: seq 1659080, RTO: 0.100s
-Timeout retransmit: seq 1660260, RTO: 0.100s
-Fast retransmit: seq 1662620
-Timeout retransmit: seq 1667340, RTO: 0.100s
-Timeout retransmit: seq 1675600, RTO: 0.100s
-Timeout retransmit: seq 1676780, RTO: 0.100s
-Timeout retransmit: seq 1686220, RTO: 0.100s
-Timeout retransmit: seq 1687400, RTO: 0.100s
-Fast retransmit: seq 1686220
-Timeout retransmit: seq 1688580, RTO: 0.100s
-Timeout retransmit: seq 1689760, RTO: 0.100s
-Fast retransmit: seq 1701560
-Fast retransmit: seq 1706280
-Fast retransmit: seq 1709820
-Timeout retransmit: seq 1711000, RTO: 0.100s
+Fast retransmit: seq 1568220
+Timeout retransmit: seq 1569400, RTO: 0.100s
+Fast retransmit: seq 1575300
+Fast retransmit: seq 1649640
+Fast retransmit: seq 1696840
 Fast retransmit: seq 1722800
 Timeout retransmit: seq 1723980, RTO: 0.100s
 Timeout retransmit: seq 1725160, RTO: 0.100s
 Timeout retransmit: seq 1726340, RTO: 0.100s
 Timeout retransmit: seq 1727520, RTO: 0.100s
-Fast retransmit: seq 1728700
-Timeout retransmit: seq 1731060, RTO: 0.100s
-Timeout retransmit: seq 1732240, RTO: 0.100s
-Timeout retransmit: seq 1733420, RTO: 0.100s
-Fast retransmit: seq 1734600
-Fast retransmit: seq 1740500
-Timeout retransmit: seq 1746400, RTO: 0.100s
-Timeout retransmit: seq 1747580, RTO: 0.100s
-Timeout retransmit: seq 1748760, RTO: 0.100s
+Timeout retransmit: seq 1722800, RTO: 0.100s
+Timeout retransmit: seq 1723980, RTO: 0.100s
+Timeout retransmit: seq 1725160, RTO: 0.100s
+Fast retransmit: seq 1733420
+Fast retransmit: seq 1739320
+Timeout retransmit: seq 1751120, RTO: 0.100s
+Timeout retransmit: seq 1752300, RTO: 0.100s
+Timeout retransmit: seq 1753480, RTO: 0.100s
 Timeout retransmit: seq 1754660, RTO: 0.100s
 Timeout retransmit: seq 1755840, RTO: 0.100s
-Timeout retransmit: seq 1757020, RTO: 0.100s
-Timeout retransmit: seq 1758200, RTO: 0.100s
-Timeout retransmit: seq 1759380, RTO: 0.100s
-Fast retransmit: seq 1764100
-Fast retransmit: seq 1766460
-Timeout retransmit: seq 1767640, RTO: 0.100s
-Timeout retransmit: seq 1768820, RTO: 0.100s
-Timeout retransmit: seq 1781800, RTO: 0.100s
-Timeout retransmit: seq 1782980, RTO: 0.100s
-Timeout retransmit: seq 1784160, RTO: 0.100s
-Fast retransmit: seq 1785340
-Timeout retransmit: seq 1786520, RTO: 0.100s
-Timeout retransmit: seq 1804220, RTO: 0.100s
-Timeout retransmit: seq 1805400, RTO: 0.100s
-Timeout retransmit: seq 1806580, RTO: 0.100s
-Timeout retransmit: seq 1807760, RTO: 0.100s
-Timeout retransmit: seq 1808940, RTO: 0.100s
-Fast retransmit: seq 1804220
-Fast retransmit: seq 1811300
-Fast retransmit: seq 1817200
-Fast retransmit: seq 1823100
-Timeout retransmit: seq 1836080, RTO: 0.100s
-Timeout retransmit: seq 1837260, RTO: 0.100s
-Timeout retransmit: seq 1838440, RTO: 0.100s
-Timeout retransmit: seq 1839620, RTO: 0.100s
+Fast retransmit: seq 1790060
+Timeout retransmit: seq 1791240, RTO: 0.100s
 Fast retransmit: seq 1843160
-Fast retransmit: seq 1854960
-Timeout retransmit: seq 1860860, RTO: 0.100s
-Timeout retransmit: seq 1862040, RTO: 0.100s
-Timeout retransmit: seq 1863220, RTO: 0.100s
-Timeout retransmit: seq 1864400, RTO: 0.100s
-Timeout retransmit: seq 1865580, RTO: 0.100s
-Timeout retransmit: seq 1871480, RTO: 0.100s
-Timeout retransmit: seq 1883280, RTO: 0.100s
-Timeout retransmit: seq 1884460, RTO: 0.100s
-Timeout retransmit: seq 1885640, RTO: 0.100s
-Timeout retransmit: seq 1886820, RTO: 0.100s
-Timeout retransmit: seq 1888000, RTO: 0.100s
-Fast retransmit: seq 1889180
-Timeout retransmit: seq 1898620, RTO: 0.100s
-Timeout retransmit: seq 1902160, RTO: 0.100s
-Timeout retransmit: seq 1903340, RTO: 0.100s
-Timeout retransmit: seq 1905700, RTO: 0.100s
-Timeout retransmit: seq 1906880, RTO: 0.100s
-Timeout retransmit: seq 1909240, RTO: 0.100s
-Timeout retransmit: seq 1910420, RTO: 0.100s
-Fast retransmit: seq 1909240
-Timeout retransmit: seq 1918680, RTO: 0.100s
-Timeout retransmit: seq 1919860, RTO: 0.100s
-Timeout retransmit: seq 1921040, RTO: 0.100s
-Fast retransmit: seq 1926940
-Timeout retransmit: seq 1930480, RTO: 0.100s
-Timeout retransmit: seq 1931660, RTO: 0.100s
-Timeout retransmit: seq 1932840, RTO: 0.100s
-Timeout retransmit: seq 1934020, RTO: 0.100s
-Timeout retransmit: seq 1935200, RTO: 0.100s
-Fast retransmit: seq 1937560
-Timeout retransmit: seq 1947000, RTO: 0.100s
-Timeout retransmit: seq 1948180, RTO: 0.100s
-Timeout retransmit: seq 1954080, RTO: 0.100s
-Timeout retransmit: seq 1955260, RTO: 0.100s
-Timeout retransmit: seq 1958800, RTO: 0.100s
-Timeout retransmit: seq 1959980, RTO: 0.100s
-Timeout retransmit: seq 1961160, RTO: 0.100s
-Timeout retransmit: seq 1969420, RTO: 0.100s
-Fast retransmit: seq 1980040
-Timeout retransmit: seq 1987120, RTO: 0.100s
-Timeout retransmit: seq 1989480, RTO: 0.100s
-Timeout retransmit: seq 1990660, RTO: 0.100s
-Timeout retransmit: seq 1991840, RTO: 0.100s
-Timeout retransmit: seq 1994200, RTO: 0.100s
-Fast retransmit: seq 1998920
-Fast retransmit: seq 2004820
-Timeout retransmit: seq 2016620, RTO: 0.100s
-Timeout retransmit: seq 2017800, RTO: 0.100s
-Timeout retransmit: seq 2022520, RTO: 0.100s
-Timeout retransmit: seq 2023700, RTO: 0.100s
-Timeout retransmit: seq 2024880, RTO: 0.100s
-Timeout retransmit: seq 2026060, RTO: 0.100s
-Timeout retransmit: seq 2030780, RTO: 0.100s
-Timeout retransmit: seq 2031960, RTO: 0.100s
-Timeout retransmit: seq 2033140, RTO: 0.100s
+Fast retransmit: seq 1899800
+Fast retransmit: seq 1923400
+Fast retransmit: seq 1988300
+Fast retransmit: seq 2037860
+Timeout retransmit: seq 2039040, RTO: 0.100s
+Timeout retransmit: seq 2040220, RTO: 0.100s
 Timeout retransmit: seq 2041400, RTO: 0.100s
-Fast retransmit: seq 2047300
-Fast retransmit: seq 2052020
-Timeout retransmit: seq 2053200, RTO: 0.100s
-Timeout retransmit: seq 2054380, RTO: 0.100s
-Timeout retransmit: seq 2052020, RTO: 0.100s
-Timeout retransmit: seq 2055560, RTO: 0.100s
-Timeout retransmit: seq 2056740, RTO: 0.100s
-Fast retransmit: seq 2057920
-Timeout retransmit: seq 2060280, RTO: 0.100s
-Fast retransmit: seq 2066180
-Timeout retransmit: seq 2067360, RTO: 0.100s
-Timeout retransmit: seq 2068540, RTO: 0.100s
-Timeout retransmit: seq 2069720, RTO: 0.100s
-Fast retransmit: seq 2073260
-Timeout retransmit: seq 2074440, RTO: 0.100s
-Timeout retransmit: seq 2075620, RTO: 0.100s
-Timeout retransmit: seq 2076800, RTO: 0.100s
-Fast retransmit: seq 2079160
-Fast retransmit: seq 2085060
+Timeout retransmit: seq 2042580, RTO: 0.100s
+Fast retransmit: seq 2087420
+Timeout retransmit: seq 2088600, RTO: 0.100s
+Timeout retransmit: seq 2089780, RTO: 0.100s
+Timeout retransmit: seq 2090960, RTO: 0.100s
+Timeout retransmit: seq 2092140, RTO: 0.100s
 Timeout retransmit: seq 2087420, RTO: 0.100s
 Timeout retransmit: seq 2088600, RTO: 0.100s
-Fast retransmit: seq 2090960
-Timeout retransmit: seq 2092140, RTO: 0.100s
-Timeout retransmit: seq 2093320, RTO: 0.100s
-Timeout retransmit: seq 2103940, RTO: 0.100s
-Timeout retransmit: seq 2108660, RTO: 0.100s
-Timeout retransmit: seq 2111020, RTO: 0.100s
-Timeout retransmit: seq 2112200, RTO: 0.100s
-Timeout retransmit: seq 2113380, RTO: 0.100s
-Fast retransmit: seq 2114560
-Timeout retransmit: seq 2118100, RTO: 0.100s
-Timeout retransmit: seq 2132260, RTO: 0.100s
-Timeout retransmit: seq 2133440, RTO: 0.100s
-Timeout retransmit: seq 2134620, RTO: 0.100s
-Timeout retransmit: seq 2135800, RTO: 0.100s
+Fast retransmit: seq 2094500
+Timeout retransmit: seq 2095680, RTO: 0.100s
+Timeout retransmit: seq 2096860, RTO: 0.100s
+Timeout retransmit: seq 2098040, RTO: 0.100s
+Timeout retransmit: seq 2099220, RTO: 0.100s
+Fast retransmit: seq 2100400
+Fast retransmit: seq 2131080
 Fast retransmit: seq 2136980
-Timeout retransmit: seq 2138160, RTO: 0.100s
-Timeout retransmit: seq 2139340, RTO: 0.100s
-Fast retransmit: seq 2138160
-Timeout retransmit: seq 2140520, RTO: 0.100s
-Timeout retransmit: seq 2151140, RTO: 0.100s
-Timeout retransmit: seq 2152320, RTO: 0.100s
-Timeout retransmit: seq 2153500, RTO: 0.100s
-Timeout retransmit: seq 2154680, RTO: 0.100s
-Timeout retransmit: seq 2155860, RTO: 0.100s
-Timeout retransmit: seq 2159400, RTO: 0.100s
-Timeout retransmit: seq 2160580, RTO: 0.100s
-Fast retransmit: seq 2165300
-Timeout retransmit: seq 2166480, RTO: 0.100s
-Timeout retransmit: seq 2167660, RTO: 0.100s
-Timeout retransmit: seq 2168840, RTO: 0.100s
-Timeout retransmit: seq 2170020, RTO: 0.100s
-Fast retransmit: seq 2183000
-Timeout retransmit: seq 2191260, RTO: 0.100s
-Timeout retransmit: seq 2192440, RTO: 0.100s
-Timeout retransmit: seq 2193620, RTO: 0.100s
-Timeout retransmit: seq 2223120, RTO: 0.100s
-Timeout retransmit: seq 2224300, RTO: 0.100s
-Timeout retransmit: seq 2225480, RTO: 0.100s
-Fast retransmit: seq 2229020
-Fast retransmit: seq 2234920
-Timeout retransmit: seq 2236100, RTO: 0.100s
-Timeout retransmit: seq 2237280, RTO: 0.100s
+Fast retransmit: seq 2213680
+Timeout retransmit: seq 2214860, RTO: 0.100s
+Timeout retransmit: seq 2216040, RTO: 0.100s
 Fast retransmit: seq 2240820
-Timeout retransmit: seq 2252620, RTO: 0.100s
-Timeout retransmit: seq 2253800, RTO: 0.100s
-Fast retransmit: seq 2252620
-Timeout retransmit: seq 2262060, RTO: 0.100s
-Fast retransmit: seq 2265600
-Timeout retransmit: seq 2266780, RTO: 0.100s
-Timeout retransmit: seq 2267960, RTO: 0.100s
-Fast retransmit: seq 2266780
-Timeout retransmit: seq 2269140, RTO: 0.100s
-Timeout retransmit: seq 2270320, RTO: 0.100s
-Timeout retransmit: seq 2271500, RTO: 0.100s
-Timeout retransmit: seq 2277400, RTO: 0.100s
-Fast retransmit: seq 2283300
-Timeout retransmit: seq 2297460, RTO: 0.100s
-Timeout retransmit: seq 2309260, RTO: 0.100s
-Timeout retransmit: seq 2310440, RTO: 0.100s
-Timeout retransmit: seq 2311620, RTO: 0.100s
-Timeout retransmit: seq 2315160, RTO: 0.100s
+Timeout retransmit: seq 2242000, RTO: 0.100s
+Fast retransmit: seq 2301000
 Fast retransmit: seq 2315160
 Timeout retransmit: seq 2316340, RTO: 0.100s
 Timeout retransmit: seq 2317520, RTO: 0.100s
-Timeout retransmit: seq 2318700, RTO: 0.100s
-Timeout retransmit: seq 2319880, RTO: 0.100s
-Timeout retransmit: seq 2323420, RTO: 0.100s
-Fast retransmit: seq 2323420
-Timeout retransmit: seq 2324600, RTO: 0.100s
-Timeout retransmit: seq 2325780, RTO: 0.100s
-Fast retransmit: seq 2328140
-Fast retransmit: seq 2329320
-Fast retransmit: seq 2335220
-Timeout retransmit: seq 2336400, RTO: 0.100s
+Fast retransmit: seq 2336400
 Timeout retransmit: seq 2337580, RTO: 0.100s
 Timeout retransmit: seq 2338760, RTO: 0.100s
 Timeout retransmit: seq 2339940, RTO: 0.100s
-Fast retransmit: seq 2341120
-Timeout retransmit: seq 2342300, RTO: 0.100s
-Timeout retransmit: seq 2343480, RTO: 0.100s
-Timeout retransmit: seq 2344660, RTO: 0.100s
-Timeout retransmit: seq 2345840, RTO: 0.100s
-Timeout retransmit: seq 2341120, RTO: 0.100s
-Fast retransmit: seq 2347020
-Fast retransmit: seq 2354100
-Fast retransmit: seq 2356460
-Timeout retransmit: seq 2357640, RTO: 0.100s
-Timeout retransmit: seq 2358820, RTO: 0.100s
-Timeout retransmit: seq 2370620, RTO: 0.100s
-Timeout retransmit: seq 2371800, RTO: 0.100s
-Timeout retransmit: seq 2372980, RTO: 0.100s
-Timeout retransmit: seq 2374160, RTO: 0.100s
-Timeout retransmit: seq 2375340, RTO: 0.100s
-Fast retransmit: seq 2376520
-Timeout retransmit: seq 2377700, RTO: 0.100s
-Timeout retransmit: seq 2378880, RTO: 0.100s
 Fast retransmit: seq 2382420
-Timeout retransmit: seq 2404840, RTO: 0.100s
-Timeout retransmit: seq 2406020, RTO: 0.100s
-Timeout retransmit: seq 2407200, RTO: 0.100s
-Timeout retransmit: seq 2408380, RTO: 0.100s
-Timeout retransmit: seq 2409560, RTO: 0.100s
-Fast retransmit: seq 2406020
-Timeout retransmit: seq 2422540, RTO: 0.100s
-Timeout retransmit: seq 2423720, RTO: 0.100s
-Timeout retransmit: seq 2424900, RTO: 0.100s
-Timeout retransmit: seq 2426080, RTO: 0.100s
-Timeout retransmit: seq 2427260, RTO: 0.100s
-Fast retransmit: seq 2428440
-Timeout retransmit: seq 2429620, RTO: 0.100s
-Timeout retransmit: seq 2430800, RTO: 0.100s
-Timeout retransmit: seq 2431980, RTO: 0.100s
-Timeout retransmit: seq 2433160, RTO: 0.100s
-Fast retransmit: seq 2435520
+Timeout retransmit: seq 2385960, RTO: 0.100s
+Timeout retransmit: seq 2387140, RTO: 0.100s
+Fast retransmit: seq 2385960
+Fast retransmit: seq 2416640
+Timeout retransmit: seq 2417820, RTO: 0.100s
+Timeout retransmit: seq 2419000, RTO: 0.100s
+Timeout retransmit: seq 2420180, RTO: 0.100s
+Fast retransmit: seq 2422540
+Fast retransmit: seq 2436700
 Timeout retransmit: seq 2437880, RTO: 0.100s
 Timeout retransmit: seq 2439060, RTO: 0.100s
-Timeout retransmit: seq 2440240, RTO: 0.100s
-Timeout retransmit: seq 2441420, RTO: 0.100s
-Timeout retransmit: seq 2442600, RTO: 0.100s
-Fast retransmit: seq 2447320
-Fast retransmit: seq 2453220
-Timeout retransmit: seq 2454400, RTO: 0.100s
-Timeout retransmit: seq 2455580, RTO: 0.100s
-Fast retransmit: seq 2461480
-Timeout retransmit: seq 2465020, RTO: 0.100s
-Timeout retransmit: seq 2466200, RTO: 0.100s
-Timeout retransmit: seq 2467380, RTO: 0.100s
-Timeout retransmit: seq 2468560, RTO: 0.100s
-Fast retransmit: seq 2467380
-Timeout retransmit: seq 2469740, RTO: 0.100s
-Fast retransmit: seq 2473280
-Timeout retransmit: seq 2483900, RTO: 0.100s
-Timeout retransmit: seq 2485080, RTO: 0.100s
-Timeout retransmit: seq 2486260, RTO: 0.100s
-Fast retransmit: seq 2483900
-Fast retransmit: seq 2488620
-Timeout retransmit: seq 2489800, RTO: 0.100s
-Timeout retransmit: seq 2503960, RTO: 0.100s
+Fast retransmit: seq 2456760
+Timeout retransmit: seq 2457940, RTO: 0.100s
+Timeout retransmit: seq 2459120, RTO: 0.100s
+Fast retransmit: seq 2492160
+Fast retransmit: seq 2496880
 Fast retransmit: seq 2514580
-Fast retransmit: seq 2520480
-Timeout retransmit: seq 2544080, RTO: 0.100s
-Timeout retransmit: seq 2545260, RTO: 0.100s
-Timeout retransmit: seq 2549980, RTO: 0.100s
-Fast retransmit: seq 2549980
-Timeout retransmit: seq 2551160, RTO: 0.100s
-Timeout retransmit: seq 2552340, RTO: 0.100s
-Fast retransmit: seq 2554700
-Fast retransmit: seq 2561780
-Fast retransmit: seq 2592460
-Timeout retransmit: seq 2593640, RTO: 0.100s
-Timeout retransmit: seq 2594820, RTO: 0.100s
-Timeout retransmit: seq 2596000, RTO: 0.100s
-Timeout retransmit: seq 2597180, RTO: 0.100s
+Timeout retransmit: seq 2519300, RTO: 0.100s
+Fast retransmit: seq 2519300
+Timeout retransmit: seq 2588920, RTO: 0.100s
+Timeout retransmit: seq 2590100, RTO: 0.100s
+Timeout retransmit: seq 2591280, RTO: 0.100s
 Timeout retransmit: seq 2592460, RTO: 0.100s
-Fast retransmit: seq 2601900
-Timeout retransmit: seq 2610160, RTO: 0.100s
-Timeout retransmit: seq 2611340, RTO: 0.100s
-Timeout retransmit: seq 2614880, RTO: 0.100s
-Timeout retransmit: seq 2616060, RTO: 0.100s
-Timeout retransmit: seq 2617240, RTO: 0.100s
-Timeout retransmit: seq 2618420, RTO: 0.100s
-Timeout retransmit: seq 2619600, RTO: 0.100s
-Timeout retransmit: seq 2624320, RTO: 0.100s
-Timeout retransmit: seq 2625500, RTO: 0.100s
-Fast retransmit: seq 2624320
-Timeout retransmit: seq 2626680, RTO: 0.100s
-Timeout retransmit: seq 2627860, RTO: 0.100s
-Timeout retransmit: seq 2629040, RTO: 0.100s
-Fast retransmit: seq 2631400
-Timeout retransmit: seq 2637300, RTO: 0.100s
-Timeout retransmit: seq 2638480, RTO: 0.100s
-Timeout retransmit: seq 2639660, RTO: 0.100s
-Timeout retransmit: seq 2640840, RTO: 0.100s
-Timeout retransmit: seq 2642020, RTO: 0.100s
-Fast retransmit: seq 2643200
-Timeout retransmit: seq 2644380, RTO: 0.100s
-Timeout retransmit: seq 2645560, RTO: 0.100s
-Timeout retransmit: seq 2646740, RTO: 0.100s
-Timeout retransmit: seq 2647920, RTO: 0.100s
-Fast retransmit: seq 2657360
-Timeout retransmit: seq 2662080, RTO: 0.100s
-Timeout retransmit: seq 2664440, RTO: 0.100s
-Timeout retransmit: seq 2672700, RTO: 0.100s
-Fast retransmit: seq 2672700
-Timeout retransmit: seq 2673880, RTO: 0.100s
-Timeout retransmit: seq 2675060, RTO: 0.100s
-Fast retransmit: seq 2678600
-Timeout retransmit: seq 2679780, RTO: 0.100s
-Timeout retransmit: seq 2680960, RTO: 0.100s
-Timeout retransmit: seq 2682140, RTO: 0.100s
-Timeout retransmit: seq 2683320, RTO: 0.100s
-Fast retransmit: seq 2684500
-Timeout retransmit: seq 2685680, RTO: 0.100s
-Timeout retransmit: seq 2686860, RTO: 0.100s
-Fast retransmit: seq 2690400
-Fast retransmit: seq 2695120
-Fast retransmit: seq 2705740
-Timeout retransmit: seq 2726980, RTO: 0.100s
-Timeout retransmit: seq 2728160, RTO: 0.100s
-Timeout retransmit: seq 2737600, RTO: 0.100s
-Timeout retransmit: seq 2738780, RTO: 0.100s
-Fast retransmit: seq 2737600
-Timeout retransmit: seq 2739960, RTO: 0.100s
-Timeout retransmit: seq 2741140, RTO: 0.100s
-Timeout retransmit: seq 2742320, RTO: 0.100s
-Fast retransmit: seq 2743500
-Timeout retransmit: seq 2744680, RTO: 0.100s
-Timeout retransmit: seq 2745860, RTO: 0.100s
-Timeout retransmit: seq 2747040, RTO: 0.100s
-Timeout retransmit: seq 2765920, RTO: 0.100s
-Timeout retransmit: seq 2767100, RTO: 0.100s
+Timeout retransmit: seq 2593640, RTO: 0.100s
+Fast retransmit: seq 2617240
+Timeout retransmit: seq 2620780, RTO: 0.100s
+Timeout retransmit: seq 2621960, RTO: 0.100s
+Fast retransmit: seq 2620780
+Fast retransmit: seq 2651460
+Timeout retransmit: seq 2652640, RTO: 0.100s
+Timeout retransmit: seq 2653820, RTO: 0.100s
+Timeout retransmit: seq 2655000, RTO: 0.100s
+Fast retransmit: seq 2665620
+Timeout retransmit: seq 2666800, RTO: 0.100s
+Timeout retransmit: seq 2667980, RTO: 0.100s
+Fast retransmit: seq 2701020
+Timeout retransmit: seq 2702200, RTO: 0.100s
+Timeout retransmit: seq 2703380, RTO: 0.100s
+Timeout retransmit: seq 2704560, RTO: 0.100s
+Timeout retransmit: seq 2705740, RTO: 0.100s
+Timeout retransmit: seq 2701020, RTO: 0.100s
+Fast retransmit: seq 2712820
+Timeout retransmit: seq 2714000, RTO: 0.100s
+Timeout retransmit: seq 2715180, RTO: 0.100s
+Timeout retransmit: seq 2716360, RTO: 0.100s
+Timeout retransmit: seq 2717540, RTO: 0.100s
+Timeout retransmit: seq 2712820, RTO: 0.100s
 Fast retransmit: seq 2771820
+Timeout retransmit: seq 2773000, RTO: 0.100s
 Timeout retransmit: seq 2774180, RTO: 0.100s
-Fast retransmit: seq 2778900
-Timeout retransmit: seq 2780080, RTO: 0.100s
-Timeout retransmit: seq 2781260, RTO: 0.100s
-Timeout retransmit: seq 2782440, RTO: 0.100s
-Timeout retransmit: seq 2783620, RTO: 0.100s
-Timeout retransmit: seq 2788340, RTO: 0.100s
-Timeout retransmit: seq 2789520, RTO: 0.100s
-Fast retransmit: seq 2794240
-Fast retransmit: seq 2803680
-Timeout retransmit: seq 2814300, RTO: 0.100s
-Timeout retransmit: seq 2821380, RTO: 0.100s
-Timeout retransmit: seq 2822560, RTO: 0.100s
-Timeout retransmit: seq 2823740, RTO: 0.100s
-Timeout retransmit: seq 2824920, RTO: 0.100s
-Fast retransmit: seq 2827280
-Timeout retransmit: seq 2828460, RTO: 0.100s
-Timeout retransmit: seq 2829640, RTO: 0.100s
-Timeout retransmit: seq 2830820, RTO: 0.100s
-Timeout retransmit: seq 2832000, RTO: 0.100s
-Fast retransmit: seq 2833180
-Timeout retransmit: seq 2837900, RTO: 0.100s
-Fast retransmit: seq 2842620
-Timeout retransmit: seq 2843800, RTO: 0.100s
-Timeout retransmit: seq 2844980, RTO: 0.100s
-Timeout retransmit: seq 2846160, RTO: 0.100s
-Timeout retransmit: seq 2847340, RTO: 0.100s
-Timeout retransmit: seq 2853240, RTO: 0.100s
-Timeout retransmit: seq 2854420, RTO: 0.100s
-Fast retransmit: seq 2868580
-Timeout retransmit: seq 2872120, RTO: 0.100s
-Timeout retransmit: seq 2873300, RTO: 0.100s
-Timeout retransmit: seq 2878020, RTO: 0.100s
-Timeout retransmit: seq 2879200, RTO: 0.100s
-Timeout retransmit: seq 2880380, RTO: 0.100s
-Fast retransmit: seq 2883920
-Fast retransmit: seq 2889820
-Fast retransmit: seq 2898080
-Timeout retransmit: seq 2902800, RTO: 0.100s
-Timeout retransmit: seq 2907520, RTO: 0.100s
-Timeout retransmit: seq 2908700, RTO: 0.100s
-Timeout retransmit: seq 2909880, RTO: 0.100s
-Timeout retransmit: seq 2911060, RTO: 0.100s
-Timeout retransmit: seq 2912240, RTO: 0.100s
+Timeout retransmit: seq 2775360, RTO: 0.100s
+Fast retransmit: seq 2804860
+Timeout retransmit: seq 2806040, RTO: 0.100s
+Fast retransmit: seq 2855600
+Timeout retransmit: seq 2856780, RTO: 0.100s
+Fast retransmit: seq 2867400
+Fast retransmit: seq 2896900
+Timeout retransmit: seq 2901620, RTO: 0.100s
+Timeout retransmit: seq 2903980, RTO: 0.100s
+Timeout retransmit: seq 2905160, RTO: 0.100s
+Timeout retransmit: seq 2906340, RTO: 0.100s
 Fast retransmit: seq 2914600
 Timeout retransmit: seq 2915780, RTO: 0.100s
 Timeout retransmit: seq 2916960, RTO: 0.100s
 Timeout retransmit: seq 2918140, RTO: 0.100s
 Timeout retransmit: seq 2919320, RTO: 0.100s
-Timeout retransmit: seq 2921680, RTO: 0.100s
-Timeout retransmit: seq 2922860, RTO: 0.100s
+Timeout retransmit: seq 2914600, RTO: 0.100s
 Timeout retransmit: seq 2926400, RTO: 0.100s
-Timeout retransmit: seq 2934660, RTO: 0.100s
-Timeout retransmit: seq 2935840, RTO: 0.100s
-Timeout retransmit: seq 2937020, RTO: 0.100s
-Timeout retransmit: seq 2938200, RTO: 0.100s
-Timeout retransmit: seq 2939380, RTO: 0.100s
-Fast retransmit: seq 2934660
-Fast retransmit: seq 2942920
-Fast retransmit: seq 2954720
-Timeout retransmit: seq 2959440, RTO: 0.100s
-Timeout retransmit: seq 2962980, RTO: 0.100s
-Timeout retransmit: seq 2964160, RTO: 0.100s
-Fast retransmit: seq 2970060
-Timeout retransmit: seq 2980680, RTO: 0.100s
-Timeout retransmit: seq 2993660, RTO: 0.100s
-Timeout retransmit: seq 2994840, RTO: 0.100s
-Timeout retransmit: seq 2996020, RTO: 0.100s
-Timeout retransmit: seq 2997200, RTO: 0.100s
-Fast retransmit: seq 2999560
-Timeout retransmit: seq 3006640, RTO: 0.100s
-Timeout retransmit: seq 3007820, RTO: 0.100s
-Timeout retransmit: seq 3009000, RTO: 0.100s
-Fast retransmit: seq 3006640
-Timeout retransmit: seq 3010180, RTO: 0.100s
-Fast retransmit: seq 3013720
-Timeout retransmit: seq 3019620, RTO: 0.100s
-Timeout retransmit: seq 3020800, RTO: 0.100s
-Timeout retransmit: seq 3024340, RTO: 0.100s
-Timeout retransmit: seq 3026700, RTO: 0.100s
-Timeout retransmit: seq 3027880, RTO: 0.100s
-Timeout retransmit: seq 3029060, RTO: 0.100s
-Timeout retransmit: seq 3030240, RTO: 0.100s
-Timeout retransmit: seq 3031420, RTO: 0.100s
-Fast retransmit: seq 3026700
-Timeout retransmit: seq 3050300, RTO: 0.100s
-Timeout retransmit: seq 3051480, RTO: 0.100s
-Timeout retransmit: seq 3052660, RTO: 0.100s
-Fast retransmit: seq 3056200
-Fast retransmit: seq 3062100
-Fast retransmit: seq 3064460
-Timeout retransmit: seq 3065640, RTO: 0.100s
-Timeout retransmit: seq 3066820, RTO: 0.100s
-Timeout retransmit: seq 3068000, RTO: 0.100s
-Timeout retransmit: seq 3069180, RTO: 0.100s
-Timeout retransmit: seq 3075080, RTO: 0.100s
-Timeout retransmit: seq 3076260, RTO: 0.100s
-Timeout retransmit: seq 3077440, RTO: 0.100s
-Timeout retransmit: seq 3078620, RTO: 0.100s
-Timeout retransmit: seq 3079800, RTO: 0.100s
-Fast retransmit: seq 3079800
-Timeout retransmit: seq 3088060, RTO: 0.100s
-Timeout retransmit: seq 3089240, RTO: 0.100s
-Fast retransmit: seq 3091600
-Timeout retransmit: seq 3096320, RTO: 0.100s
-Timeout retransmit: seq 3097500, RTO: 0.100s
-Timeout retransmit: seq 3098680, RTO: 0.100s
-Timeout retransmit: seq 3099860, RTO: 0.100s
-Fast retransmit: seq 3098680
-Fast retransmit: seq 3103400
-Timeout retransmit: seq 3105760, RTO: 0.100s
-Timeout retransmit: seq 3106940, RTO: 0.100s
-Timeout retransmit: seq 3108120, RTO: 0.100s
-Fast retransmit: seq 3111660
-Fast retransmit: seq 3116380
-Timeout retransmit: seq 3119920, RTO: 0.100s
-Timeout retransmit: seq 3121100, RTO: 0.100s
-Fast retransmit: seq 3125820
-Timeout retransmit: seq 3138800, RTO: 0.100s
-Timeout retransmit: seq 3139980, RTO: 0.100s
-Fast retransmit: seq 3138800
-Timeout retransmit: seq 3144700, RTO: 0.100s
-Timeout retransmit: seq 3145880, RTO: 0.100s
-Timeout retransmit: seq 3147060, RTO: 0.100s
-Timeout retransmit: seq 3148240, RTO: 0.100s
-Fast retransmit: seq 3150600
-Timeout retransmit: seq 3151780, RTO: 0.100s
-Timeout retransmit: seq 3152960, RTO: 0.100s
-Timeout retransmit: seq 3154140, RTO: 0.100s
-Timeout retransmit: seq 3162400, RTO: 0.100s
-Fast retransmit: seq 3162400
-Timeout retransmit: seq 3167120, RTO: 0.100s
-Fast retransmit: seq 3167120
+Timeout retransmit: seq 2927580, RTO: 0.100s
+Timeout retransmit: seq 2928760, RTO: 0.100s
+Timeout retransmit: seq 2929940, RTO: 0.100s
+Timeout retransmit: seq 2931120, RTO: 0.100s
+Fast retransmit: seq 2932300
+Fast retransmit: seq 2945280
+Timeout retransmit: seq 2952360, RTO: 0.100s
+Timeout retransmit: seq 2953540, RTO: 0.100s
+Timeout retransmit: seq 2954720, RTO: 0.100s
+Timeout retransmit: seq 2955900, RTO: 0.100s
+Timeout retransmit: seq 2957080, RTO: 0.100s
+Fast retransmit: seq 2952360
+Fast retransmit: seq 2981860
+Fast retransmit: seq 3050300
+Fast retransmit: seq 3073900
+Fast retransmit: seq 3168300
+Timeout retransmit: seq 3169480, RTO: 0.100s
+Timeout retransmit: seq 3170660, RTO: 0.100s
+Timeout retransmit: seq 3171840, RTO: 0.100s
+Timeout retransmit: seq 3173020, RTO: 0.100s
 Timeout retransmit: seq 3168300, RTO: 0.100s
 Timeout retransmit: seq 3169480, RTO: 0.100s
 Timeout retransmit: seq 3170660, RTO: 0.100s
 Timeout retransmit: seq 3171840, RTO: 0.100s
-Fast retransmit: seq 3174200
-Timeout retransmit: seq 3181280, RTO: 0.100s
-Timeout retransmit: seq 3182460, RTO: 0.100s
-Timeout retransmit: seq 3183640, RTO: 0.100s
-Fast retransmit: seq 3196620
-Fast retransmit: seq 3203700
-Timeout retransmit: seq 3204880, RTO: 0.100s
-Timeout retransmit: seq 3206060, RTO: 0.100s
-Timeout retransmit: seq 3207240, RTO: 0.100s
-Timeout retransmit: seq 3208420, RTO: 0.100s
-Timeout retransmit: seq 3216680, RTO: 0.100s
-Fast retransmit: seq 3216680
-Timeout retransmit: seq 3234380, RTO: 0.100s
-Timeout retransmit: seq 3235560, RTO: 0.100s
-Timeout retransmit: seq 3236740, RTO: 0.100s
-Timeout retransmit: seq 3242640, RTO: 0.100s
-Fast retransmit: seq 3253260
-Fast retransmit: seq 3262700
-Fast retransmit: seq 3267420
-Fast retransmit: seq 3275680
-Fast retransmit: seq 3281580
-Timeout retransmit: seq 3282760, RTO: 0.100s
-Timeout retransmit: seq 3283940, RTO: 0.100s
-Timeout retransmit: seq 3285120, RTO: 0.100s
-Timeout retransmit: seq 3286300, RTO: 0.100s
-Fast retransmit: seq 3288660
-Timeout retransmit: seq 3289840, RTO: 0.100s
-Timeout retransmit: seq 3291020, RTO: 0.100s
-Timeout retransmit: seq 3292200, RTO: 0.100s
-Timeout retransmit: seq 3293380, RTO: 0.100s
+Timeout retransmit: seq 3173020, RTO: 0.100s
+Timeout retransmit: seq 3168300, RTO: 0.100s
+Timeout retransmit: seq 3169480, RTO: 0.100s
+Timeout retransmit: seq 3170660, RTO: 0.100s
+Timeout retransmit: seq 3171840, RTO: 0.100s
+Timeout retransmit: seq 3173020, RTO: 0.100s
+Timeout retransmit: seq 3168300, RTO: 0.100s
+Fast retransmit: seq 3215500
+Fast retransmit: seq 3222580
+Timeout retransmit: seq 3223760, RTO: 0.100s
+Timeout retransmit: seq 3224940, RTO: 0.100s
+Timeout retransmit: seq 3226120, RTO: 0.100s
+Timeout retransmit: seq 3227300, RTO: 0.100s
+Fast retransmit: seq 3228480
+Fast retransmit: seq 3293380
 Timeout retransmit: seq 3294560, RTO: 0.100s
-Fast retransmit: seq 3294560
 Timeout retransmit: seq 3295740, RTO: 0.100s
 Timeout retransmit: seq 3296920, RTO: 0.100s
 Timeout retransmit: seq 3298100, RTO: 0.100s
-Timeout retransmit: seq 3299280, RTO: 0.100s
-Fast retransmit: seq 3304000
-Timeout retransmit: seq 3305180, RTO: 0.100s
-Timeout retransmit: seq 3306360, RTO: 0.100s
-Timeout retransmit: seq 3307540, RTO: 0.100s
-Timeout retransmit: seq 3308720, RTO: 0.100s
-Timeout retransmit: seq 3311080, RTO: 0.100s
-Fast retransmit: seq 3311080
-Timeout retransmit: seq 3312260, RTO: 0.100s
-Timeout retransmit: seq 3313440, RTO: 0.100s
-Timeout retransmit: seq 3314620, RTO: 0.100s
-Timeout retransmit: seq 3315800, RTO: 0.100s
-Fast retransmit: seq 3324060
-Timeout retransmit: seq 3325240, RTO: 0.100s
-Fast retransmit: seq 3329960
-Timeout retransmit: seq 3338220, RTO: 0.100s
-Timeout retransmit: seq 3339400, RTO: 0.100s
-Timeout retransmit: seq 3340580, RTO: 0.100s
-Fast retransmit: seq 3344120
-Fast retransmit: seq 3348840
-Fast retransmit: seq 3358280
-Fast retransmit: seq 3364180
-Timeout retransmit: seq 3367720, RTO: 0.100s
-Timeout retransmit: seq 3371260, RTO: 0.100s
-Timeout retransmit: seq 3372440, RTO: 0.100s
-Fast retransmit: seq 3374800
-Timeout retransmit: seq 3375980, RTO: 0.100s
-Fast retransmit: seq 3396040
-Timeout retransmit: seq 3397220, RTO: 0.100s
-Timeout retransmit: seq 3398400, RTO: 0.100s
+Fast retransmit: seq 3300460
+Fast retransmit: seq 3357100
+Fast retransmit: seq 3385420
 Fast retransmit: seq 3405480
-Fast retransmit: seq 3407840
-Timeout retransmit: seq 3411380, RTO: 0.100s
-Timeout retransmit: seq 3416100, RTO: 0.100s
-Fast retransmit: seq 3423180
-Timeout retransmit: seq 3432620, RTO: 0.100s
-Timeout retransmit: seq 3433800, RTO: 0.100s
-Timeout retransmit: seq 3434980, RTO: 0.100s
-Timeout retransmit: seq 3436160, RTO: 0.100s
-Timeout retransmit: seq 3437340, RTO: 0.100s
-Fast retransmit: seq 3438520
-Timeout retransmit: seq 3446780, RTO: 0.100s
-Timeout retransmit: seq 3447960, RTO: 0.100s
-Fast retransmit: seq 3446780
-Timeout retransmit: seq 3457400, RTO: 0.100s
-Timeout retransmit: seq 3458580, RTO: 0.100s
-Fast retransmit: seq 3473920
-Fast retransmit: seq 3476280
-Timeout retransmit: seq 3477460, RTO: 0.100s
-Fast retransmit: seq 3483360
-Timeout retransmit: seq 3485720, RTO: 0.100s
-Timeout retransmit: seq 3486900, RTO: 0.100s
-Timeout retransmit: seq 3488080, RTO: 0.100s
-Fast retransmit: seq 3489260
-Timeout retransmit: seq 3492800, RTO: 0.100s
-Timeout retransmit: seq 3493980, RTO: 0.100s
-Fast retransmit: seq 3492800
-Fast retransmit: seq 3498700
-Fast retransmit: seq 3503420
-Fast retransmit: seq 3512860
-Timeout retransmit: seq 3518760, RTO: 0.100s
-Timeout retransmit: seq 3519940, RTO: 0.100s
-Timeout retransmit: seq 3521120, RTO: 0.100s
-Timeout retransmit: seq 3522300, RTO: 0.100s
-Timeout retransmit: seq 3523480, RTO: 0.100s
-Fast retransmit: seq 3524660
-Timeout retransmit: seq 3528200, RTO: 0.100s
-Timeout retransmit: seq 3529380, RTO: 0.100s
-Fast retransmit: seq 3528200
-Timeout retransmit: seq 3530560, RTO: 0.100s
-Timeout retransmit: seq 3531740, RTO: 0.100s
-Timeout retransmit: seq 3532920, RTO: 0.100s
-Fast retransmit: seq 3531740
+Timeout retransmit: seq 3406660, RTO: 0.100s
+Timeout retransmit: seq 3407840, RTO: 0.100s
+Fast retransmit: seq 3419640
+Timeout retransmit: seq 3420820, RTO: 0.100s
+Timeout retransmit: seq 3422000, RTO: 0.100s
+Fast retransmit: seq 3439700
+Timeout retransmit: seq 3440880, RTO: 0.100s
+Timeout retransmit: seq 3442060, RTO: 0.100s
+Fast retransmit: seq 3469200
+Timeout retransmit: seq 3470380, RTO: 0.100s
+Timeout retransmit: seq 3471560, RTO: 0.100s
+Timeout retransmit: seq 3472740, RTO: 0.100s
+Timeout retransmit: seq 3473920, RTO: 0.100s
+Fast retransmit: seq 3475100
+Fast retransmit: seq 3504600
+Timeout retransmit: seq 3505780, RTO: 0.100s
+Timeout retransmit: seq 3506960, RTO: 0.100s
+Timeout retransmit: seq 3508140, RTO: 0.100s
+Timeout retransmit: seq 3509320, RTO: 0.100s
+Timeout retransmit: seq 3504600, RTO: 0.100s
+Fast retransmit: seq 3525840
+Timeout retransmit: seq 3527020, RTO: 0.100s
+Fast retransmit: seq 3532920
 Timeout retransmit: seq 3534100, RTO: 0.100s
 Timeout retransmit: seq 3535280, RTO: 0.100s
 Timeout retransmit: seq 3536460, RTO: 0.100s
-Fast retransmit: seq 3541180
-Timeout retransmit: seq 3542360, RTO: 0.100s
-Timeout retransmit: seq 3543540, RTO: 0.100s
-Timeout retransmit: seq 3544720, RTO: 0.100s
-Timeout retransmit: seq 3545900, RTO: 0.100s
-Timeout retransmit: seq 3552980, RTO: 0.100s
-Timeout retransmit: seq 3554160, RTO: 0.100s
-Timeout retransmit: seq 3555340, RTO: 0.100s
-Timeout retransmit: seq 3556520, RTO: 0.100s
-Fast retransmit: seq 3552980
+Timeout retransmit: seq 3537640, RTO: 0.100s
 Fast retransmit: seq 3560060
-Timeout retransmit: seq 3562420, RTO: 0.100s
-Timeout retransmit: seq 3563600, RTO: 0.100s
-Timeout retransmit: seq 3564780, RTO: 0.100s
-Timeout retransmit: seq 3567140, RTO: 0.100s
-Timeout retransmit: seq 3578940, RTO: 0.100s
-Timeout retransmit: seq 3583660, RTO: 0.100s
-Timeout retransmit: seq 3600180, RTO: 0.100s
-Fast retransmit: seq 3604900
-Timeout retransmit: seq 3606080, RTO: 0.100s
-Timeout retransmit: seq 3607260, RTO: 0.100s
-Timeout retransmit: seq 3608440, RTO: 0.100s
-Timeout retransmit: seq 3609620, RTO: 0.100s
-Timeout retransmit: seq 3604900, RTO: 0.100s
-Fast retransmit: seq 3610800
-Fast retransmit: seq 3614340
-Timeout retransmit: seq 3615520, RTO: 0.100s
-Timeout retransmit: seq 3619060, RTO: 0.100s
-Fast retransmit: seq 3619060
-Timeout retransmit: seq 3620240, RTO: 0.100s
+Fast retransmit: seq 3620240
 Timeout retransmit: seq 3621420, RTO: 0.100s
 Timeout retransmit: seq 3622600, RTO: 0.100s
 Timeout retransmit: seq 3623780, RTO: 0.100s
-Fast retransmit: seq 3627320
-Timeout retransmit: seq 3636760, RTO: 0.100s
-Timeout retransmit: seq 3641480, RTO: 0.100s
-Timeout retransmit: seq 3654460, RTO: 0.100s
-Timeout retransmit: seq 3655640, RTO: 0.100s
-Fast retransmit: seq 3654460
-Timeout retransmit: seq 3656820, RTO: 0.100s
-Timeout retransmit: seq 3658000, RTO: 0.100s
-Timeout retransmit: seq 3659180, RTO: 0.100s
-Timeout retransmit: seq 3660360, RTO: 0.100s
-Timeout retransmit: seq 3661540, RTO: 0.100s
-Fast retransmit: seq 3665080
-Timeout retransmit: seq 3666260, RTO: 0.100s
-Timeout retransmit: seq 3667440, RTO: 0.100s
-Timeout retransmit: seq 3668620, RTO: 0.100s
-Timeout retransmit: seq 3669800, RTO: 0.100s
-Timeout retransmit: seq 3665080, RTO: 0.100s
-Timeout retransmit: seq 3666260, RTO: 0.100s
-Timeout retransmit: seq 3667440, RTO: 0.100s
-Timeout retransmit: seq 3668620, RTO: 0.100s
-Timeout retransmit: seq 3669800, RTO: 0.100s
-Timeout retransmit: seq 3665080, RTO: 0.100s
-Timeout retransmit: seq 3666260, RTO: 0.100s
-Timeout retransmit: seq 3667440, RTO: 0.100s
-Timeout retransmit: seq 3668620, RTO: 0.100s
-Fast retransmit: seq 3672160
-Timeout retransmit: seq 3673340, RTO: 0.100s
-Timeout retransmit: seq 3674520, RTO: 0.100s
-Timeout retransmit: seq 3675700, RTO: 0.100s
-Fast retransmit: seq 3685140
-Timeout retransmit: seq 3687500, RTO: 0.100s
-Fast retransmit: seq 3699300
-Timeout retransmit: seq 3701660, RTO: 0.100s
-Fast retransmit: seq 3706380
-Fast retransmit: seq 3712280
-Fast retransmit: seq 3718180
-Fast retransmit: seq 3724080
-Timeout retransmit: seq 3725260, RTO: 0.100s
-Fast retransmit: seq 3750040
-Timeout retransmit: seq 3752400, RTO: 0.100s
-Timeout retransmit: seq 3753580, RTO: 0.100s
-Timeout retransmit: seq 3754760, RTO: 0.100s
-Timeout retransmit: seq 3757120, RTO: 0.100s
-Timeout retransmit: seq 3758300, RTO: 0.100s
-Timeout retransmit: seq 3760660, RTO: 0.100s
-Timeout retransmit: seq 3761840, RTO: 0.100s
-Timeout retransmit: seq 3767740, RTO: 0.100s
-Timeout retransmit: seq 3768920, RTO: 0.100s
-Timeout retransmit: seq 3774820, RTO: 0.100s
+Fast retransmit: seq 3678060
+Fast retransmit: seq 3709920
+Timeout retransmit: seq 3711100, RTO: 0.100s
+Timeout retransmit: seq 3712280, RTO: 0.100s
+Fast retransmit: seq 3715820
+Timeout retransmit: seq 3717000, RTO: 0.100s
+Timeout retransmit: seq 3718180, RTO: 0.100s
+Timeout retransmit: seq 3719360, RTO: 0.100s
+Timeout retransmit: seq 3720540, RTO: 0.100s
+Timeout retransmit: seq 3715820, RTO: 0.100s
+Fast retransmit: seq 3754760
+Timeout retransmit: seq 3755940, RTO: 0.100s
+Fast retransmit: seq 3774820
 Timeout retransmit: seq 3776000, RTO: 0.100s
-Fast retransmit: seq 3783080
-Fast retransmit: seq 3790160
-Timeout retransmit: seq 3791340, RTO: 0.100s
-Timeout retransmit: seq 3792520, RTO: 0.100s
-Timeout retransmit: seq 3793700, RTO: 0.100s
-Timeout retransmit: seq 3794880, RTO: 0.100s
-Fast retransmit: seq 3791340
-Fast retransmit: seq 3799600
-Timeout retransmit: seq 3806680, RTO: 0.100s
-Timeout retransmit: seq 3807860, RTO: 0.100s
-Timeout retransmit: seq 3809040, RTO: 0.100s
-Timeout retransmit: seq 3810220, RTO: 0.100s
-Timeout retransmit: seq 3820840, RTO: 0.100s
-Timeout retransmit: seq 3822020, RTO: 0.100s
-Timeout retransmit: seq 3823200, RTO: 0.100s
-Fast retransmit: seq 3832640
-Fast retransmit: seq 3837360
-Timeout retransmit: seq 3838540, RTO: 0.100s
-Timeout retransmit: seq 3839720, RTO: 0.100s
+Timeout retransmit: seq 3777180, RTO: 0.100s
+Timeout retransmit: seq 3779540, RTO: 0.100s
+Fast retransmit: seq 3779540
+Fast retransmit: seq 3781900
+Timeout retransmit: seq 3783080, RTO: 0.100s
+Timeout retransmit: seq 3784260, RTO: 0.100s
+Fast retransmit: seq 3827920
 Timeout retransmit: seq 3840900, RTO: 0.100s
 Timeout retransmit: seq 3842080, RTO: 0.100s
-Fast retransmit: seq 3847980
-Timeout retransmit: seq 3849160, RTO: 0.100s
-Timeout retransmit: seq 3866860, RTO: 0.100s
-Timeout retransmit: seq 3870400, RTO: 0.100s
-Timeout retransmit: seq 3871580, RTO: 0.100s
-Timeout retransmit: seq 3873940, RTO: 0.100s
-Timeout retransmit: seq 3875120, RTO: 0.100s
-Fast retransmit: seq 3879840
-Fast retransmit: seq 3888100
-Timeout retransmit: seq 3901080, RTO: 0.100s
-Timeout retransmit: seq 3902260, RTO: 0.100s
-Timeout retransmit: seq 3903440, RTO: 0.100s
-Timeout retransmit: seq 3904620, RTO: 0.100s
+Timeout retransmit: seq 3843260, RTO: 0.100s
+Timeout retransmit: seq 3844440, RTO: 0.100s
+Timeout retransmit: seq 3845620, RTO: 0.100s
 Fast retransmit: seq 3901080
-Timeout retransmit: seq 3905800, RTO: 0.100s
-Fast retransmit: seq 3906980
-Timeout retransmit: seq 3914060, RTO: 0.100s
-Fast retransmit: seq 3914060
-Timeout retransmit: seq 3915240, RTO: 0.100s
-Timeout retransmit: seq 3916420, RTO: 0.100s
+Fast retransmit: seq 3916420
 Timeout retransmit: seq 3917600, RTO: 0.100s
-Timeout retransmit: seq 3918780, RTO: 0.100s
-Timeout retransmit: seq 3932940, RTO: 0.100s
-Timeout retransmit: seq 3934120, RTO: 0.100s
-Timeout retransmit: seq 3935300, RTO: 0.100s
-Timeout retransmit: seq 3936480, RTO: 0.100s
-Timeout retransmit: seq 3942380, RTO: 0.100s
-Timeout retransmit: seq 3943560, RTO: 0.100s
-Timeout retransmit: seq 3944740, RTO: 0.100s
-Timeout retransmit: seq 3945920, RTO: 0.100s
-Timeout retransmit: seq 3947100, RTO: 0.100s
-Fast retransmit: seq 3949460
-Timeout retransmit: seq 3950640, RTO: 0.100s
-Timeout retransmit: seq 3958900, RTO: 0.100s
-Timeout retransmit: seq 3960080, RTO: 0.100s
-Fast retransmit: seq 3958900
-Timeout retransmit: seq 3961260, RTO: 0.100s
-Timeout retransmit: seq 3962440, RTO: 0.100s
-Timeout retransmit: seq 3963620, RTO: 0.100s
-Timeout retransmit: seq 3965980, RTO: 0.100s
-Timeout retransmit: seq 3967160, RTO: 0.100s
-Timeout retransmit: seq 3968340, RTO: 0.100s
-Timeout retransmit: seq 3969520, RTO: 0.100s
+Fast retransmit: seq 3957720
+Fast retransmit: seq 3969520
 Fast retransmit: seq 3980140
-Fast retransmit: seq 3987220
-Timeout retransmit: seq 3988400, RTO: 0.100s
+Fast retransmit: seq 3988400
 Timeout retransmit: seq 3989580, RTO: 0.100s
-Fast retransmit: seq 3994300
-Timeout retransmit: seq 3995480, RTO: 0.100s
-Timeout retransmit: seq 3996660, RTO: 0.100s
-Timeout retransmit: seq 3997840, RTO: 0.100s
-Timeout retransmit: seq 3999020, RTO: 0.100s
-Fast retransmit: seq 4001380
-Timeout retransmit: seq 4007280, RTO: 0.100s
-Timeout retransmit: seq 4008460, RTO: 0.100s
-Timeout retransmit: seq 4009640, RTO: 0.100s
-Timeout retransmit: seq 4010820, RTO: 0.100s
-Timeout retransmit: seq 4012000, RTO: 0.100s
-Fast retransmit: seq 4007280
-Fast retransmit: seq 4013180
-Timeout retransmit: seq 4021440, RTO: 0.100s
-Timeout retransmit: seq 4022620, RTO: 0.100s
-Timeout retransmit: seq 4023800, RTO: 0.100s
-Fast retransmit: seq 4026160
-Timeout retransmit: seq 4032060, RTO: 0.100s
-Timeout retransmit: seq 4033240, RTO: 0.100s
-Timeout retransmit: seq 4035600, RTO: 0.100s
-Timeout retransmit: seq 4040320, RTO: 0.100s
-Fast retransmit: seq 4040320
-Timeout retransmit: seq 4041500, RTO: 0.100s
-Timeout retransmit: seq 4042680, RTO: 0.100s
-Fast retransmit: seq 4054480
-Fast retransmit: seq 4060380
+Timeout retransmit: seq 3990760, RTO: 0.100s
+Fast retransmit: seq 3999020
+Fast retransmit: seq 4050940
+Timeout retransmit: seq 4052120, RTO: 0.100s
+Timeout retransmit: seq 4053300, RTO: 0.100s
+Timeout retransmit: seq 4058020, RTO: 0.100s
+Timeout retransmit: seq 4059200, RTO: 0.100s
+Timeout retransmit: seq 4060380, RTO: 0.100s
 Timeout retransmit: seq 4061560, RTO: 0.100s
 Timeout retransmit: seq 4062740, RTO: 0.100s
-Timeout retransmit: seq 4068640, RTO: 0.100s
-Timeout retransmit: seq 4069820, RTO: 0.100s
-Fast retransmit: seq 4074540
-Timeout retransmit: seq 4083980, RTO: 0.100s
-Timeout retransmit: seq 4085160, RTO: 0.100s
-Timeout retransmit: seq 4098140, RTO: 0.100s
-Timeout retransmit: seq 4099320, RTO: 0.100s
-Timeout retransmit: seq 4100500, RTO: 0.100s
-Timeout retransmit: seq 4101680, RTO: 0.100s
-Timeout retransmit: seq 4105220, RTO: 0.100s
-Timeout retransmit: seq 4106400, RTO: 0.100s
-Fast retransmit: seq 4109940
-Fast retransmit: seq 4124100
-Timeout retransmit: seq 4128820, RTO: 0.100s
-Timeout retransmit: seq 4130000, RTO: 0.100s
-Timeout retransmit: seq 4131180, RTO: 0.100s
-Timeout retransmit: seq 4132360, RTO: 0.100s
-Fast retransmit: seq 4135900
-Fast retransmit: seq 4142980
-Fast retransmit: seq 4148880
-Timeout retransmit: seq 4153600, RTO: 0.100s
-Timeout retransmit: seq 4154780, RTO: 0.100s
-Timeout retransmit: seq 4155960, RTO: 0.100s
-Fast retransmit: seq 4160680
-Fast retransmit: seq 4168940
-Timeout retransmit: seq 4177200, RTO: 0.100s
-Timeout retransmit: seq 4178380, RTO: 0.100s
-Timeout retransmit: seq 4179560, RTO: 0.100s
-Timeout retransmit: seq 4206700, RTO: 0.100s
-Timeout retransmit: seq 4207880, RTO: 0.100s
-Fast retransmit: seq 4214960
-Timeout retransmit: seq 4216140, RTO: 0.100s
+Fast retransmit: seq 4065100
+Fast retransmit: seq 4069820
+Fast retransmit: seq 4076900
+Fast retransmit: seq 4098140
+Fast retransmit: seq 4165400
+Timeout retransmit: seq 4166580, RTO: 0.100s
+Fast retransmit: seq 4189000
+Fast retransmit: seq 4216140
 Timeout retransmit: seq 4217320, RTO: 0.100s
-Timeout retransmit: seq 4218500, RTO: 0.100s
-Timeout retransmit: seq 4219680, RTO: 0.100s
-Fast retransmit: seq 4223220
-Timeout retransmit: seq 4224400, RTO: 0.100s
+Fast retransmit: seq 4224400
 Timeout retransmit: seq 4225580, RTO: 0.100s
 Timeout retransmit: seq 4226760, RTO: 0.100s
 Timeout retransmit: seq 4227940, RTO: 0.100s
-Timeout retransmit: seq 4232660, RTO: 0.100s
-Timeout retransmit: seq 4245640, RTO: 0.100s
-Timeout retransmit: seq 4246820, RTO: 0.100s
-Timeout retransmit: seq 4248000, RTO: 0.100s
-Timeout retransmit: seq 4249180, RTO: 0.100s
-Timeout retransmit: seq 4260980, RTO: 0.100s
-Timeout retransmit: seq 4264520, RTO: 0.100s
-Fast retransmit: seq 4268060
-Timeout retransmit: seq 4269240, RTO: 0.100s
-Timeout retransmit: seq 4288120, RTO: 0.100s
-Fast retransmit: seq 4291660
-Timeout retransmit: seq 4292840, RTO: 0.100s
-Timeout retransmit: seq 4294020, RTO: 0.100s
-Timeout retransmit: seq 4303460, RTO: 0.100s
-Timeout retransmit: seq 4307000, RTO: 0.100s
-Timeout retransmit: seq 4308180, RTO: 0.100s
-Timeout retransmit: seq 4309360, RTO: 0.100s
-Timeout retransmit: seq 4318800, RTO: 0.100s
-Timeout retransmit: seq 4319980, RTO: 0.100s
-Fast retransmit: seq 4324700
-Timeout retransmit: seq 4329420, RTO: 0.100s
-Fast retransmit: seq 4334140
-Fast retransmit: seq 4341220
-Timeout retransmit: seq 4342400, RTO: 0.100s
-Fast retransmit: seq 4351840
-Timeout retransmit: seq 4353020, RTO: 0.100s
-Timeout retransmit: seq 4354200, RTO: 0.100s
-Timeout retransmit: seq 4355380, RTO: 0.100s
-Timeout retransmit: seq 4356560, RTO: 0.100s
-Fast retransmit: seq 4355380
-Timeout retransmit: seq 4358920, RTO: 0.100s
-Timeout retransmit: seq 4360100, RTO: 0.100s
-Fast retransmit: seq 4358920
-Fast retransmit: seq 4363640
-Timeout retransmit: seq 4370720, RTO: 0.100s
-Timeout retransmit: seq 4371900, RTO: 0.100s
-Timeout retransmit: seq 4373080, RTO: 0.100s
-Timeout retransmit: seq 4384880, RTO: 0.100s
-Timeout retransmit: seq 4386060, RTO: 0.100s
-Timeout retransmit: seq 4387240, RTO: 0.100s
-Timeout retransmit: seq 4388420, RTO: 0.100s
-Timeout retransmit: seq 4389600, RTO: 0.100s
-Fast retransmit: seq 4388420
-Timeout retransmit: seq 4390780, RTO: 0.100s
-Timeout retransmit: seq 4391960, RTO: 0.100s
-Fast retransmit: seq 4395500
-Timeout retransmit: seq 4397860, RTO: 0.100s
-Timeout retransmit: seq 4399040, RTO: 0.100s
-Timeout retransmit: seq 4400220, RTO: 0.100s
-Fast retransmit: seq 4403760
-Fast retransmit: seq 4408480
-Timeout retransmit: seq 4410840, RTO: 0.100s
-Timeout retransmit: seq 4412020, RTO: 0.100s
-Timeout retransmit: seq 4413200, RTO: 0.100s
-Fast retransmit: seq 4415560
-Timeout retransmit: seq 4419100, RTO: 0.100s
-Timeout retransmit: seq 4420280, RTO: 0.100s
-Fast retransmit: seq 4425000
-Timeout retransmit: seq 4430900, RTO: 0.100s
-Timeout retransmit: seq 4432080, RTO: 0.100s
-Timeout retransmit: seq 4433260, RTO: 0.100s
-Timeout retransmit: seq 4434440, RTO: 0.100s
-Timeout retransmit: seq 4435620, RTO: 0.100s
-Fast retransmit: seq 4430900
-Timeout retransmit: seq 4443880, RTO: 0.100s
-Timeout retransmit: seq 4445060, RTO: 0.100s
-Timeout retransmit: seq 4446240, RTO: 0.100s
-Timeout retransmit: seq 4447420, RTO: 0.100s
-Timeout retransmit: seq 4448600, RTO: 0.100s
-Timeout retransmit: seq 4454500, RTO: 0.100s
-Timeout retransmit: seq 4458040, RTO: 0.100s
-Timeout retransmit: seq 4459220, RTO: 0.100s
-Timeout retransmit: seq 4460400, RTO: 0.100s
-Timeout retransmit: seq 4461580, RTO: 0.100s
-Fast retransmit: seq 4463940
-Timeout retransmit: seq 4465120, RTO: 0.100s
-Timeout retransmit: seq 4476920, RTO: 0.100s
-Timeout retransmit: seq 4478100, RTO: 0.100s
-Timeout retransmit: seq 4479280, RTO: 0.100s
-Timeout retransmit: seq 4480460, RTO: 0.100s
-Fast retransmit: seq 4482820
-Timeout retransmit: seq 4484000, RTO: 0.100s
-Timeout retransmit: seq 4485180, RTO: 0.100s
-Timeout retransmit: seq 4486360, RTO: 0.100s
-Timeout retransmit: seq 4487540, RTO: 0.100s
-Fast retransmit: seq 4485180
-Fast retransmit: seq 4491080
-Timeout retransmit: seq 4494620, RTO: 0.100s
-Timeout retransmit: seq 4495800, RTO: 0.100s
-Timeout retransmit: seq 4502880, RTO: 0.100s
-Timeout retransmit: seq 4504060, RTO: 0.100s
-Timeout retransmit: seq 4505240, RTO: 0.100s
-Fast retransmit: seq 4507600
-Timeout retransmit: seq 4508780, RTO: 0.100s
-Timeout retransmit: seq 4509960, RTO: 0.100s
-Fast retransmit: seq 4515860
-Timeout retransmit: seq 4517040, RTO: 0.100s
-Timeout retransmit: seq 4522940, RTO: 0.100s
-Fast retransmit: seq 4539460
-Timeout retransmit: seq 4540640, RTO: 0.100s
-Timeout retransmit: seq 4541820, RTO: 0.100s
-Timeout retransmit: seq 4543000, RTO: 0.100s
-Timeout retransmit: seq 4544180, RTO: 0.100s
-Fast retransmit: seq 4545360
-Fast retransmit: seq 4551260
-Timeout retransmit: seq 4552440, RTO: 0.100s
-Timeout retransmit: seq 4561880, RTO: 0.100s
-Timeout retransmit: seq 4563060, RTO: 0.100s
-Timeout retransmit: seq 4564240, RTO: 0.100s
-Fast retransmit: seq 4566600
-Timeout retransmit: seq 4567780, RTO: 0.100s
-Timeout retransmit: seq 4568960, RTO: 0.100s
-Timeout retransmit: seq 4570140, RTO: 0.100s
-Timeout retransmit: seq 4571320, RTO: 0.100s
-Fast retransmit: seq 4572500
-Fast retransmit: seq 4578400
-Timeout retransmit: seq 4579580, RTO: 0.100s
-Timeout retransmit: seq 4580760, RTO: 0.100s
-Timeout retransmit: seq 4583120, RTO: 0.100s
-Fast retransmit: seq 4584300
-Timeout retransmit: seq 4585480, RTO: 0.100s
-Timeout retransmit: seq 4586660, RTO: 0.100s
-Timeout retransmit: seq 4587840, RTO: 0.100s
-Timeout retransmit: seq 4589020, RTO: 0.100s
-Timeout retransmit: seq 4584300, RTO: 0.100s
-Fast retransmit: seq 4590200
-Timeout retransmit: seq 4591380, RTO: 0.100s
-Timeout retransmit: seq 4592560, RTO: 0.100s
-Timeout retransmit: seq 4593740, RTO: 0.100s
-Timeout retransmit: seq 4594920, RTO: 0.100s
-Fast retransmit: seq 4597280
-Timeout retransmit: seq 4598460, RTO: 0.100s
-Timeout retransmit: seq 4599640, RTO: 0.100s
-Timeout retransmit: seq 4600820, RTO: 0.100s
-Timeout retransmit: seq 4602000, RTO: 0.100s
-Fast retransmit: seq 4598460
-Fast retransmit: seq 4604360
-Timeout retransmit: seq 4606720, RTO: 0.100s
-Fast retransmit: seq 4620880
-Timeout retransmit: seq 4622060, RTO: 0.100s
-Timeout retransmit: seq 4623240, RTO: 0.100s
-Timeout retransmit: seq 4624420, RTO: 0.100s
-Timeout retransmit: seq 4625600, RTO: 0.100s
-Timeout retransmit: seq 4626780, RTO: 0.100s
-Fast retransmit: seq 4622060
-Fast retransmit: seq 4627960
-Timeout retransmit: seq 4638580, RTO: 0.100s
-Timeout retransmit: seq 4639760, RTO: 0.100s
-Timeout retransmit: seq 4645660, RTO: 0.100s
-Timeout retransmit: seq 4665720, RTO: 0.100s
-Timeout retransmit: seq 4668080, RTO: 0.100s
-Timeout retransmit: seq 4669260, RTO: 0.100s
-Timeout retransmit: seq 4670440, RTO: 0.100s
-Timeout retransmit: seq 4677520, RTO: 0.100s
-Timeout retransmit: seq 4678700, RTO: 0.100s
-Timeout retransmit: seq 4684600, RTO: 0.100s
-Timeout retransmit: seq 4685780, RTO: 0.100s
-Fast retransmit: seq 4691680
-Timeout retransmit: seq 4692860, RTO: 0.100s
-Timeout retransmit: seq 4694040, RTO: 0.100s
-Timeout retransmit: seq 4695220, RTO: 0.100s
-Timeout retransmit: seq 4696400, RTO: 0.100s
-Fast retransmit: seq 4697580
-Timeout retransmit: seq 4703480, RTO: 0.100s
-Timeout retransmit: seq 4704660, RTO: 0.100s
-Timeout retransmit: seq 4705840, RTO: 0.100s
-Timeout retransmit: seq 4707020, RTO: 0.100s
-Fast retransmit: seq 4709380
-Fast retransmit: seq 4712920
+Fast retransmit: seq 4246820
+Fast retransmit: seq 4311720
+Fast retransmit: seq 4362460
+Timeout retransmit: seq 4363640, RTO: 0.100s
+Fast retransmit: seq 4373080
+Fast retransmit: seq 4393140
+Timeout retransmit: seq 4394320, RTO: 0.100s
+Timeout retransmit: seq 4395500, RTO: 0.100s
+Fast retransmit: seq 4467480
+Timeout retransmit: seq 4468660, RTO: 0.100s
+Fast retransmit: seq 4473380
+Fast retransmit: seq 4479280
+Fast retransmit: seq 4505240
+Timeout retransmit: seq 4506420, RTO: 0.100s
+Timeout retransmit: seq 4507600, RTO: 0.100s
+Fast retransmit: seq 4514680
+Timeout retransmit: seq 4515860, RTO: 0.100s
+Fast retransmit: seq 4525300
+Timeout retransmit: seq 4526480, RTO: 0.100s
+Timeout retransmit: seq 4527660, RTO: 0.100s
+Timeout retransmit: seq 4528840, RTO: 0.100s
+Timeout retransmit: seq 4530020, RTO: 0.100s
+Timeout retransmit: seq 4525300, RTO: 0.100s
+Fast retransmit: seq 4534740
+Timeout retransmit: seq 4535920, RTO: 0.100s
+Fast retransmit: seq 4550080
+Timeout retransmit: seq 4551260, RTO: 0.100s
+Fast retransmit: seq 4580760
+Fast retransmit: seq 4592560
+Timeout retransmit: seq 4612620, RTO: 0.100s
+Timeout retransmit: seq 4613800, RTO: 0.100s
+Timeout retransmit: seq 4614980, RTO: 0.100s
+Timeout retransmit: seq 4616160, RTO: 0.100s
+Fast retransmit: seq 4618520
+Fast retransmit: seq 4678700
+Fast retransmit: seq 4710560
+Timeout retransmit: seq 4711740, RTO: 0.100s
+Timeout retransmit: seq 4712920, RTO: 0.100s
 Timeout retransmit: seq 4714100, RTO: 0.100s
-Timeout retransmit: seq 4730620, RTO: 0.100s
-Timeout retransmit: seq 4731800, RTO: 0.100s
-Timeout retransmit: seq 4732980, RTO: 0.100s
-Timeout retransmit: seq 4734160, RTO: 0.100s
-Timeout retransmit: seq 4735340, RTO: 0.100s
-Fast retransmit: seq 4736520
-Timeout retransmit: seq 4749500, RTO: 0.100s
-Timeout retransmit: seq 4750680, RTO: 0.100s
-Timeout retransmit: seq 4751860, RTO: 0.100s
-Timeout retransmit: seq 4753040, RTO: 0.100s
-Timeout retransmit: seq 4754220, RTO: 0.100s
-Fast retransmit: seq 4756580
-Timeout retransmit: seq 4769560, RTO: 0.100s
-Timeout retransmit: seq 4770740, RTO: 0.100s
-Fast retransmit: seq 4773100
-Fast retransmit: seq 4775460
-Timeout retransmit: seq 4776640, RTO: 0.100s
-Fast retransmit: seq 4783720
-Timeout retransmit: seq 4784900, RTO: 0.100s
-Timeout retransmit: seq 4786080, RTO: 0.100s
-Timeout retransmit: seq 4787260, RTO: 0.100s
-Timeout retransmit: seq 4788440, RTO: 0.100s
-Fast retransmit: seq 4789620
-Timeout retransmit: seq 4790800, RTO: 0.100s
-Fast retransmit: seq 4796700
-Timeout retransmit: seq 4806140, RTO: 0.100s
-Fast retransmit: seq 4812040
-Timeout retransmit: seq 4813220, RTO: 0.100s
-Timeout retransmit: seq 4814400, RTO: 0.100s
-Timeout retransmit: seq 4821480, RTO: 0.100s
-Timeout retransmit: seq 4822660, RTO: 0.100s
-Timeout retransmit: seq 4823840, RTO: 0.100s
-Fast retransmit: seq 4829740
+Timeout retransmit: seq 4715280, RTO: 0.100s
+Fast retransmit: seq 4725900
+Timeout retransmit: seq 4727080, RTO: 0.100s
+Fast retransmit: seq 4744780
+Timeout retransmit: seq 4745960, RTO: 0.100s
+Timeout retransmit: seq 4747140, RTO: 0.100s
+Timeout retransmit: seq 4748320, RTO: 0.100s
+Fast retransmit: seq 4750680
+Fast retransmit: seq 4806140
+Timeout retransmit: seq 4807320, RTO: 0.100s
+Timeout retransmit: seq 4808500, RTO: 0.100s
+Timeout retransmit: seq 4809680, RTO: 0.100s
+Timeout retransmit: seq 4810860, RTO: 0.100s
+Fast retransmit: seq 4808500
+Fast retransmit: seq 4814400
+Fast retransmit: seq 4823840
+Timeout retransmit: seq 4825020, RTO: 0.100s
+Timeout retransmit: seq 4832100, RTO: 0.100s
+Timeout retransmit: seq 4833280, RTO: 0.100s
 Timeout retransmit: seq 4834460, RTO: 0.100s
-Fast retransmit: seq 4834460
-Fast retransmit: seq 4840360
-Timeout retransmit: seq 4848620, RTO: 0.100s
-Timeout retransmit: seq 4849800, RTO: 0.100s
-Timeout retransmit: seq 4850980, RTO: 0.100s
-Fast retransmit: seq 4848620
-Timeout retransmit: seq 4853340, RTO: 0.100s
-Timeout retransmit: seq 4854520, RTO: 0.100s
-Timeout retransmit: seq 4855700, RTO: 0.100s
-Timeout retransmit: seq 4856880, RTO: 0.100s
-Timeout retransmit: seq 4858060, RTO: 0.100s
-Fast retransmit: seq 4853340
-Timeout retransmit: seq 4866320, RTO: 0.100s
-Timeout retransmit: seq 4869860, RTO: 0.100s
-Timeout retransmit: seq 4876940, RTO: 0.100s
-Timeout retransmit: seq 4878120, RTO: 0.100s
-Timeout retransmit: seq 4885200, RTO: 0.100s
-Fast retransmit: seq 4889920
-Timeout retransmit: seq 4897000, RTO: 0.100s
-Fast retransmit: seq 4902900
-Timeout retransmit: seq 4904080, RTO: 0.100s
-Timeout retransmit: seq 4915880, RTO: 0.100s
-Timeout retransmit: seq 4924140, RTO: 0.100s
-Timeout retransmit: seq 4930040, RTO: 0.100s
-Fast retransmit: seq 4935940
-Timeout retransmit: seq 4939480, RTO: 0.100s
-Timeout retransmit: seq 4940660, RTO: 0.100s
-Timeout retransmit: seq 4943020, RTO: 0.100s
-Timeout retransmit: seq 4944200, RTO: 0.100s
-Timeout retransmit: seq 4948920, RTO: 0.100s
-Timeout retransmit: seq 4950100, RTO: 0.100s
-Timeout retransmit: seq 4957180, RTO: 0.100s
-Timeout retransmit: seq 4958360, RTO: 0.100s
-Timeout retransmit: seq 4959540, RTO: 0.100s
-Timeout retransmit: seq 4960720, RTO: 0.100s
-Timeout retransmit: seq 4961900, RTO: 0.100s
-Fast retransmit: seq 4963080
-Timeout retransmit: seq 4964260, RTO: 0.100s
-Timeout retransmit: seq 4965440, RTO: 0.100s
-Timeout retransmit: seq 4966620, RTO: 0.100s
-Timeout retransmit: seq 4967800, RTO: 0.100s
-Fast retransmit: seq 4973700
-Timeout retransmit: seq 4976060, RTO: 0.100s
-Fast retransmit: seq 4979600
-Timeout retransmit: seq 4980780, RTO: 0.100s
-Timeout retransmit: seq 4981960, RTO: 0.100s
-Timeout retransmit: seq 4983140, RTO: 0.100s
-Timeout retransmit: seq 4984320, RTO: 0.100s
-Fast retransmit: seq 4997300
-Timeout retransmit: seq 4998480, RTO: 0.100s
-Fast retransmit: seq 5005560
-Fast retransmit: seq 5016180
-Timeout retransmit: seq 5025620, RTO: 0.100s
-Timeout retransmit: seq 5026800, RTO: 0.100s
-Timeout retransmit: seq 5027980, RTO: 0.100s
-Timeout retransmit: seq 5032700, RTO: 0.100s
-Timeout retransmit: seq 5040960, RTO: 0.100s
-Timeout retransmit: seq 5042140, RTO: 0.100s
-Timeout retransmit: seq 5043320, RTO: 0.100s
-Timeout retransmit: seq 5044500, RTO: 0.100s
-Timeout retransmit: seq 5045680, RTO: 0.100s
-Fast retransmit: seq 5040960
-Timeout retransmit: seq 5048040, RTO: 0.100s
-Timeout retransmit: seq 5049220, RTO: 0.100s
-Fast retransmit: seq 5048040
-Timeout retransmit: seq 5050400, RTO: 0.100s
-Timeout retransmit: seq 5051580, RTO: 0.100s
-Fast retransmit: seq 5053940
-Timeout retransmit: seq 5056300, RTO: 0.100s
-Timeout retransmit: seq 5057480, RTO: 0.100s
-Timeout retransmit: seq 5058660, RTO: 0.100s
-Timeout retransmit: seq 5061020, RTO: 0.100s
-Fast retransmit: seq 5062200
-Timeout retransmit: seq 5071640, RTO: 0.100s
-Timeout retransmit: seq 5072820, RTO: 0.100s
-Timeout retransmit: seq 5074000, RTO: 0.100s
-Timeout retransmit: seq 5075180, RTO: 0.100s
-Timeout retransmit: seq 5076360, RTO: 0.100s
-Timeout retransmit: seq 5071640, RTO: 0.100s
-Timeout retransmit: seq 5072820, RTO: 0.100s
-Fast retransmit: seq 5083440
-Timeout retransmit: seq 5085800, RTO: 0.100s
-Timeout retransmit: seq 5086980, RTO: 0.100s
-Timeout retransmit: seq 5088160, RTO: 0.100s
-Timeout retransmit: seq 5089340, RTO: 0.100s
-Timeout retransmit: seq 5090520, RTO: 0.100s
-Fast retransmit: seq 5092880
-Timeout retransmit: seq 5096420, RTO: 0.100s
-Timeout retransmit: seq 5097600, RTO: 0.100s
-Fast retransmit: seq 5096420
-Timeout retransmit: seq 5123560, RTO: 0.100s
-Timeout retransmit: seq 5124740, RTO: 0.100s
+Fast retransmit: seq 4888740
+Timeout retransmit: seq 4889920, RTO: 0.100s
+Fast retransmit: seq 4894640
+Fast retransmit: seq 4907620
+Timeout retransmit: seq 4908800, RTO: 0.100s
+Timeout retransmit: seq 4909980, RTO: 0.100s
+Timeout retransmit: seq 4911160, RTO: 0.100s
+Fast retransmit: seq 4930040
+Timeout retransmit: seq 4934760, RTO: 0.100s
+Fast retransmit: seq 4934760
+Fast retransmit: seq 4987860
+Timeout retransmit: seq 4989040, RTO: 0.100s
+Timeout retransmit: seq 4990220, RTO: 0.100s
+Timeout retransmit: seq 4991400, RTO: 0.100s
+Timeout retransmit: seq 4992580, RTO: 0.100s
+Fast retransmit: seq 4994940
+Fast retransmit: seq 4999660
+Timeout retransmit: seq 5002020, RTO: 0.100s
+Timeout retransmit: seq 5003200, RTO: 0.100s
+Timeout retransmit: seq 5004380, RTO: 0.100s
+Fast retransmit: seq 5020900
+Fast retransmit: seq 5029160
+Timeout retransmit: seq 5030340, RTO: 0.100s
+Timeout retransmit: seq 5031520, RTO: 0.100s
+Fast retransmit: seq 5104680
+Timeout retransmit: seq 5105860, RTO: 0.100s
+Timeout retransmit: seq 5107040, RTO: 0.100s
+Timeout retransmit: seq 5108220, RTO: 0.100s
+Timeout retransmit: seq 5109400, RTO: 0.100s
+Fast retransmit: seq 5111760
 Timeout retransmit: seq 5125920, RTO: 0.100s
-Timeout retransmit: seq 5133000, RTO: 0.100s
-Timeout retransmit: seq 5134180, RTO: 0.100s
-Fast retransmit: seq 5138900
-Fast retransmit: seq 5145980
-Timeout retransmit: seq 5147160, RTO: 0.100s
-Timeout retransmit: seq 5148340, RTO: 0.100s
-Timeout retransmit: seq 5149520, RTO: 0.100s
-Fast retransmit: seq 5151880
-Timeout retransmit: seq 5153060, RTO: 0.100s
-Timeout retransmit: seq 5154240, RTO: 0.100s
-Timeout retransmit: seq 5155420, RTO: 0.100s
-Fast retransmit: seq 5158960
-Timeout retransmit: seq 5169580, RTO: 0.100s
-Fast retransmit: seq 5175480
-Timeout retransmit: seq 5177840, RTO: 0.100s
-Fast retransmit: seq 5181380
-Timeout retransmit: seq 5182560, RTO: 0.100s
-Fast retransmit: seq 5187280
-Timeout retransmit: seq 5188460, RTO: 0.100s
-Timeout retransmit: seq 5189640, RTO: 0.100s
-Timeout retransmit: seq 5190820, RTO: 0.100s
-Timeout retransmit: seq 5192000, RTO: 0.100s
-Timeout retransmit: seq 5194360, RTO: 0.100s
-Timeout retransmit: seq 5195540, RTO: 0.100s
-Timeout retransmit: seq 5204980, RTO: 0.100s
-Timeout retransmit: seq 5210880, RTO: 0.100s
+Timeout retransmit: seq 5127100, RTO: 0.100s
+Timeout retransmit: seq 5128280, RTO: 0.100s
+Timeout retransmit: seq 5129460, RTO: 0.100s
+Fast retransmit: seq 5134180
+Timeout retransmit: seq 5135360, RTO: 0.100s
+Timeout retransmit: seq 5136540, RTO: 0.100s
+Fast retransmit: seq 5142440
+Timeout retransmit: seq 5143620, RTO: 0.100s
+Timeout retransmit: seq 5144800, RTO: 0.100s
+Timeout retransmit: seq 5212060, RTO: 0.100s
+Timeout retransmit: seq 5213240, RTO: 0.100s
 Timeout retransmit: seq 5214420, RTO: 0.100s
-Timeout retransmit: seq 5215600, RTO: 0.100s
-Fast retransmit: seq 5228580
-Fast retransmit: seq 5234480
-Fast retransmit: seq 5241560
-Timeout retransmit: seq 5242740, RTO: 0.100s
-Timeout retransmit: seq 5243920, RTO: 0.100s
-Timeout retransmit: seq 5245100, RTO: 0.100s
-Timeout retransmit: seq 5246280, RTO: 0.100s
-Timeout retransmit: seq 5248640, RTO: 0.100s
-Timeout retransmit: seq 5249820, RTO: 0.100s
-Timeout retransmit: seq 5251000, RTO: 0.100s
+Fast retransmit: seq 5251000
 Timeout retransmit: seq 5252180, RTO: 0.100s
-Fast retransmit: seq 5248640
-Fast retransmit: seq 5255720
-Timeout retransmit: seq 5256900, RTO: 0.100s
-Timeout retransmit: seq 5258080, RTO: 0.100s
-Timeout retransmit: seq 5259260, RTO: 0.100s
+Fast retransmit: seq 5259260
 Timeout retransmit: seq 5260440, RTO: 0.100s
-Fast retransmit: seq 5265160
-Timeout retransmit: seq 5266340, RTO: 0.100s
-Timeout retransmit: seq 5271060, RTO: 0.100s
-Timeout retransmit: seq 5272240, RTO: 0.100s
-Timeout retransmit: seq 5273420, RTO: 0.100s
-Fast retransmit: seq 5271060
+Timeout retransmit: seq 5261620, RTO: 0.100s
 Fast retransmit: seq 5281680
-Timeout retransmit: seq 5282860, RTO: 0.100s
-Timeout retransmit: seq 5284040, RTO: 0.100s
-Timeout retransmit: seq 5285220, RTO: 0.100s
-Timeout retransmit: seq 5286400, RTO: 0.100s
-Timeout retransmit: seq 5281680, RTO: 0.100s
-Fast retransmit: seq 5287580
-Timeout retransmit: seq 5295840, RTO: 0.100s
-Fast retransmit: seq 5315900
-Timeout retransmit: seq 5322980, RTO: 0.100s
-Timeout retransmit: seq 5331240, RTO: 0.100s
-Timeout retransmit: seq 5332420, RTO: 0.100s
-Timeout retransmit: seq 5333600, RTO: 0.100s
-Timeout retransmit: seq 5334780, RTO: 0.100s
-Timeout retransmit: seq 5338320, RTO: 0.100s
-Timeout retransmit: seq 5339500, RTO: 0.100s
-Timeout retransmit: seq 5351300, RTO: 0.100s
-Timeout retransmit: seq 5354840, RTO: 0.100s
-Timeout retransmit: seq 5356020, RTO: 0.100s
-Fast retransmit: seq 5357200
-Timeout retransmit: seq 5358380, RTO: 0.100s
+Fast retransmit: seq 5351300
+Fast retransmit: seq 5381980
 Timeout retransmit: seq 5383160, RTO: 0.100s
-Fast retransmit: seq 5389060
-Fast retransmit: seq 5397320
-Timeout retransmit: seq 5398500, RTO: 0.100s
-Timeout retransmit: seq 5399680, RTO: 0.100s
-Fast retransmit: seq 5410300
-Timeout retransmit: seq 5424460, RTO: 0.100s
-Timeout retransmit: seq 5425640, RTO: 0.100s
-Fast retransmit: seq 5429180
-Fast retransmit: seq 5437440
-Timeout retransmit: seq 5442160, RTO: 0.100s
-Fast retransmit: seq 5443340
-Timeout retransmit: seq 5444520, RTO: 0.100s
-Fast retransmit: seq 5449240
-Fast retransmit: seq 5458680
-Timeout retransmit: seq 5465760, RTO: 0.100s
-Timeout retransmit: seq 5466940, RTO: 0.100s
-Timeout retransmit: seq 5468120, RTO: 0.100s
-Fast retransmit: seq 5465760
-Timeout retransmit: seq 5469300, RTO: 0.100s
-Fast retransmit: seq 5471660
-Fast retransmit: seq 5478740
-Timeout retransmit: seq 5479920, RTO: 0.100s
-Timeout retransmit: seq 5481100, RTO: 0.100s
-Timeout retransmit: seq 5482280, RTO: 0.100s
-Timeout retransmit: seq 5483460, RTO: 0.100s
-Timeout retransmit: seq 5484640, RTO: 0.100s
-Fast retransmit: seq 5487000
-Fast retransmit: seq 5497620
-Fast retransmit: seq 5502340
-Timeout retransmit: seq 5503520, RTO: 0.100s
-Timeout retransmit: seq 5504700, RTO: 0.100s
-Timeout retransmit: seq 5505880, RTO: 0.100s
-Timeout retransmit: seq 5507060, RTO: 0.100s
-Fast retransmit: seq 5520040
-Fast retransmit: seq 5523580
-Timeout retransmit: seq 5524760, RTO: 0.100s
-Timeout retransmit: seq 5525940, RTO: 0.100s
-Timeout retransmit: seq 5530660, RTO: 0.100s
-Timeout retransmit: seq 5549540, RTO: 0.100s
-Timeout retransmit: seq 5550720, RTO: 0.100s
-Timeout retransmit: seq 5564880, RTO: 0.100s
-Timeout retransmit: seq 5566060, RTO: 0.100s
-Timeout retransmit: seq 5567240, RTO: 0.100s
-Fast retransmit: seq 5568420
-Timeout retransmit: seq 5570780, RTO: 0.100s
-Timeout retransmit: seq 5571960, RTO: 0.100s
-Timeout retransmit: seq 5573140, RTO: 0.100s
-Fast retransmit: seq 5574320
-Timeout retransmit: seq 5577860, RTO: 0.100s
-Timeout retransmit: seq 5579040, RTO: 0.100s
-Timeout retransmit: seq 5581400, RTO: 0.100s
-Timeout retransmit: seq 5582580, RTO: 0.100s
-Timeout retransmit: seq 5584940, RTO: 0.100s
-Timeout retransmit: seq 5586120, RTO: 0.100s
-Fast retransmit: seq 5590840
-Timeout retransmit: seq 5592020, RTO: 0.100s
-Timeout retransmit: seq 5593200, RTO: 0.100s
+Timeout retransmit: seq 5384340, RTO: 0.100s
+Timeout retransmit: seq 5385520, RTO: 0.100s
+Fast retransmit: seq 5387880
+Fast retransmit: seq 5470480
+Fast retransmit: seq 5477560
+Fast retransmit: seq 5496440
+Fast retransmit: seq 5516500
+Timeout retransmit: seq 5517680, RTO: 0.100s
+Fast retransmit: seq 5554260
+Timeout retransmit: seq 5555440, RTO: 0.100s
+Timeout retransmit: seq 5556620, RTO: 0.100s
+Fast retransmit: seq 5593200
 Timeout retransmit: seq 5594380, RTO: 0.100s
 Timeout retransmit: seq 5595560, RTO: 0.100s
-Fast retransmit: seq 5599100
-Timeout retransmit: seq 5607360, RTO: 0.100s
-Timeout retransmit: seq 5608540, RTO: 0.100s
-Timeout retransmit: seq 5609720, RTO: 0.100s
-Timeout retransmit: seq 5610900, RTO: 0.100s
-Fast retransmit: seq 5613260
-Timeout retransmit: seq 5615620, RTO: 0.100s
-Timeout retransmit: seq 5616800, RTO: 0.100s
-Timeout retransmit: seq 5617980, RTO: 0.100s
-Timeout retransmit: seq 5619160, RTO: 0.100s
-Timeout retransmit: seq 5620340, RTO: 0.100s
-Fast retransmit: seq 5621520
-Timeout retransmit: seq 5622700, RTO: 0.100s
-Timeout retransmit: seq 5623880, RTO: 0.100s
-Timeout retransmit: seq 5625060, RTO: 0.100s
-Timeout retransmit: seq 5626240, RTO: 0.100s
-Fast retransmit: seq 5627420
-Timeout retransmit: seq 5633320, RTO: 0.100s
-Timeout retransmit: seq 5634500, RTO: 0.100s
-Fast retransmit: seq 5633320
+Timeout retransmit: seq 5596740, RTO: 0.100s
+Timeout retransmit: seq 5597920, RTO: 0.100s
+Timeout retransmit: seq 5593200, RTO: 0.100s
+Fast retransmit: seq 5609720
+Fast retransmit: seq 5635680
+Timeout retransmit: seq 5636860, RTO: 0.100s
+Timeout retransmit: seq 5638040, RTO: 0.100s
 Fast retransmit: seq 5647480
-Fast retransmit: seq 5654560
-Timeout retransmit: seq 5655740, RTO: 0.100s
-Timeout retransmit: seq 5656920, RTO: 0.100s
-Timeout retransmit: seq 5658100, RTO: 0.100s
-Timeout retransmit: seq 5659280, RTO: 0.100s
-Fast retransmit: seq 5665180
-Fast retransmit: seq 5672260
-Timeout retransmit: seq 5679340, RTO: 0.100s
-Fast retransmit: seq 5679340
-Fast retransmit: seq 5685240
-Timeout retransmit: seq 5686420, RTO: 0.100s
-Timeout retransmit: seq 5687600, RTO: 0.100s
-Timeout retransmit: seq 5688780, RTO: 0.100s
-Timeout retransmit: seq 5689960, RTO: 0.100s
-Timeout retransmit: seq 5698220, RTO: 0.100s
-Timeout retransmit: seq 5699400, RTO: 0.100s
-Timeout retransmit: seq 5700580, RTO: 0.100s
-Timeout retransmit: seq 5701760, RTO: 0.100s
-Timeout retransmit: seq 5702940, RTO: 0.100s
-Fast retransmit: seq 5707660
-Timeout retransmit: seq 5712380, RTO: 0.100s
-Timeout retransmit: seq 5718280, RTO: 0.100s
-Timeout retransmit: seq 5719460, RTO: 0.100s
-Fast retransmit: seq 5718280
-Timeout retransmit: seq 5721820, RTO: 0.100s
-Timeout retransmit: seq 5723000, RTO: 0.100s
+Fast retransmit: seq 5669900
+Fast retransmit: seq 5698220
 Fast retransmit: seq 5721820
-Timeout retransmit: seq 5724180, RTO: 0.100s
-Timeout retransmit: seq 5725360, RTO: 0.100s
-Timeout retransmit: seq 5726540, RTO: 0.100s
-Fast retransmit: seq 5738340
-Timeout retransmit: seq 5739520, RTO: 0.100s
-Timeout retransmit: seq 5740700, RTO: 0.100s
-Timeout retransmit: seq 5741880, RTO: 0.100s
-Timeout retransmit: seq 5743060, RTO: 0.100s
-Timeout retransmit: seq 5747780, RTO: 0.100s
-Timeout retransmit: seq 5748960, RTO: 0.100s
-Fast retransmit: seq 5753680
-Timeout retransmit: seq 5754860, RTO: 0.100s
-Fast retransmit: seq 5760760
-Fast retransmit: seq 5767840
-Timeout retransmit: seq 5769020, RTO: 0.100s
-Timeout retransmit: seq 5770200, RTO: 0.100s
-Timeout retransmit: seq 5771380, RTO: 0.100s
-Timeout retransmit: seq 5772560, RTO: 0.100s
+Fast retransmit: seq 5740700
 Fast retransmit: seq 5776100
-Timeout retransmit: seq 5782000, RTO: 0.100s
-Timeout retransmit: seq 5783180, RTO: 0.100s
-Timeout retransmit: seq 5784360, RTO: 0.100s
-Timeout retransmit: seq 5785540, RTO: 0.100s
-Fast retransmit: seq 5787900
-Timeout retransmit: seq 5791440, RTO: 0.100s
 Timeout retransmit: seq 5792620, RTO: 0.100s
-Timeout retransmit: seq 5830380, RTO: 0.100s
-Timeout retransmit: seq 5831560, RTO: 0.100s
-Timeout retransmit: seq 5832740, RTO: 0.100s
-Timeout retransmit: seq 5833920, RTO: 0.100s
-Timeout retransmit: seq 5835100, RTO: 0.100s
-Fast retransmit: seq 5830380
-Timeout retransmit: seq 5831560, RTO: 0.100s
-Timeout retransmit: seq 5832740, RTO: 0.100s
-Timeout retransmit: seq 5833920, RTO: 0.100s
-Timeout retransmit: seq 5835100, RTO: 0.100s
-Fast retransmit: seq 5837460
+Timeout retransmit: seq 5793800, RTO: 0.100s
+Timeout retransmit: seq 5794980, RTO: 0.100s
+Timeout retransmit: seq 5796160, RTO: 0.100s
+Timeout retransmit: seq 5797340, RTO: 0.100s
+Fast retransmit: seq 5804420
+Timeout retransmit: seq 5805600, RTO: 0.100s
+Timeout retransmit: seq 5806780, RTO: 0.100s
+Fast retransmit: seq 5812680
+Timeout retransmit: seq 5813860, RTO: 0.100s
+Timeout retransmit: seq 5815040, RTO: 0.100s
+Fast retransmit: seq 5836280
+Timeout retransmit: seq 5837460, RTO: 0.100s
 Timeout retransmit: seq 5838640, RTO: 0.100s
 Timeout retransmit: seq 5839820, RTO: 0.100s
 Timeout retransmit: seq 5841000, RTO: 0.100s
-Fast retransmit: seq 5843360
-Timeout retransmit: seq 5844540, RTO: 0.100s
-Timeout retransmit: seq 5845720, RTO: 0.100s
-Timeout retransmit: seq 5846900, RTO: 0.100s
-Timeout retransmit: seq 5848080, RTO: 0.100s
-Timeout retransmit: seq 5850440, RTO: 0.100s
-Timeout retransmit: seq 5851620, RTO: 0.100s
-Timeout retransmit: seq 5852800, RTO: 0.100s
-Timeout retransmit: seq 5869320, RTO: 0.100s
-Timeout retransmit: seq 5870500, RTO: 0.100s
-Timeout retransmit: seq 5871680, RTO: 0.100s
-Timeout retransmit: seq 5882300, RTO: 0.100s
-Timeout retransmit: seq 5883480, RTO: 0.100s
-Fast retransmit: seq 5882300
-Timeout retransmit: seq 5884660, RTO: 0.100s
-Fast retransmit: seq 5887020
-Timeout retransmit: seq 5895280, RTO: 0.100s
-Timeout retransmit: seq 5896460, RTO: 0.100s
-Fast retransmit: seq 5900000
-Timeout retransmit: seq 5903540, RTO: 0.100s
-Timeout retransmit: seq 5904720, RTO: 0.100s
+Timeout retransmit: seq 5836280, RTO: 0.100s
+Fast retransmit: seq 5904720
+Fast retransmit: seq 5911800
+Timeout retransmit: seq 5912980, RTO: 0.100s
+Timeout retransmit: seq 5914160, RTO: 0.100s
 Timeout retransmit: seq 5915340, RTO: 0.100s
-Timeout retransmit: seq 5916520, RTO: 0.100s
-Timeout retransmit: seq 5917700, RTO: 0.100s
-Timeout retransmit: seq 5918880, RTO: 0.100s
-Fast retransmit: seq 5925960
-Timeout retransmit: seq 5927140, RTO: 0.100s
-Timeout retransmit: seq 5928320, RTO: 0.100s
-Fast retransmit: seq 5934220
-Fast retransmit: seq 5938940
-Timeout retransmit: seq 5941300, RTO: 0.100s
-Timeout retransmit: seq 5942480, RTO: 0.100s
-Timeout retransmit: seq 5943660, RTO: 0.100s
-Fast retransmit: seq 5947200
-Timeout retransmit: seq 5948380, RTO: 0.100s
-Timeout retransmit: seq 5949560, RTO: 0.100s
-Timeout retransmit: seq 5950740, RTO: 0.100s
-Timeout retransmit: seq 5951920, RTO: 0.100s
-Timeout retransmit: seq 5947200, RTO: 0.100s
-Fast retransmit: seq 5953100
-Timeout retransmit: seq 5966080, RTO: 0.100s
-Timeout retransmit: seq 5967260, RTO: 0.100s
-Timeout retransmit: seq 5968440, RTO: 0.100s
-Timeout retransmit: seq 5969620, RTO: 0.100s
-Timeout retransmit: seq 5970800, RTO: 0.100s
-Fast retransmit: seq 5975520
-Timeout retransmit: seq 5989680, RTO: 0.100s
-Timeout retransmit: seq 5992040, RTO: 0.100s
-Timeout retransmit: seq 5993220, RTO: 0.100s
-Timeout retransmit: seq 5994400, RTO: 0.100s
-Fast retransmit: seq 6001480
-Timeout retransmit: seq 6002660, RTO: 0.100s
-Timeout retransmit: seq 6003840, RTO: 0.100s
-Timeout retransmit: seq 6005020, RTO: 0.100s
-Timeout retransmit: seq 6006200, RTO: 0.100s
-Fast retransmit: seq 6007380
-Timeout retransmit: seq 6008560, RTO: 0.100s
-Timeout retransmit: seq 6009740, RTO: 0.100s
-Fast retransmit: seq 6013280
-Fast retransmit: seq 6014460
-Timeout retransmit: seq 6015640, RTO: 0.100s
-Timeout retransmit: seq 6016820, RTO: 0.100s
+Fast retransmit: seq 5917700
+Fast retransmit: seq 5944840
+Timeout retransmit: seq 5946020, RTO: 0.100s
+Fast retransmit: seq 5954280
+Timeout retransmit: seq 5955460, RTO: 0.100s
+Fast retransmit: seq 6021540
+Timeout retransmit: seq 6022720, RTO: 0.100s
 Timeout retransmit: seq 6023900, RTO: 0.100s
-Timeout retransmit: seq 6025080, RTO: 0.100s
-Fast retransmit: seq 6028620
-Timeout retransmit: seq 6038060, RTO: 0.100s
-Timeout retransmit: seq 6039240, RTO: 0.100s
-Timeout retransmit: seq 6040420, RTO: 0.100s
-Timeout retransmit: seq 6041600, RTO: 0.100s
-Timeout retransmit: seq 6042780, RTO: 0.100s
-Fast retransmit: seq 6043960
-Timeout retransmit: seq 6045140, RTO: 0.100s
-Timeout retransmit: seq 6046320, RTO: 0.100s
-Timeout retransmit: seq 6047500, RTO: 0.100s
-Timeout retransmit: seq 6048680, RTO: 0.100s
-Fast retransmit: seq 6065200
-Timeout retransmit: seq 6066380, RTO: 0.100s
-Timeout retransmit: seq 6067560, RTO: 0.100s
-Fast retransmit: seq 6075820
-Timeout retransmit: seq 6077000, RTO: 0.100s
-Timeout retransmit: seq 6078180, RTO: 0.100s
-Timeout retransmit: seq 6079360, RTO: 0.100s
-Timeout retransmit: seq 6080540, RTO: 0.100s
-Timeout retransmit: seq 6082900, RTO: 0.100s
-Timeout retransmit: seq 6084080, RTO: 0.100s
-Fast retransmit: seq 6082900
+Fast retransmit: seq 6084080
 Timeout retransmit: seq 6085260, RTO: 0.100s
-Timeout retransmit: seq 6086440, RTO: 0.100s
-Fast retransmit: seq 6088800
+Fast retransmit: seq 6095880
+Timeout retransmit: seq 6097060, RTO: 0.100s
+Timeout retransmit: seq 6098240, RTO: 0.100s
+Timeout retransmit: seq 6099420, RTO: 0.100s
+Fast retransmit: seq 6101780
+Fast retransmit: seq 6104140
+Timeout retransmit: seq 6105320, RTO: 0.100s
+Timeout retransmit: seq 6106500, RTO: 0.100s
+Timeout retransmit: seq 6107680, RTO: 0.100s
+Timeout retransmit: seq 6108860, RTO: 0.100s
+Fast retransmit: seq 6105320
+Timeout retransmit: seq 6106500, RTO: 0.100s
+Timeout retransmit: seq 6110040, RTO: 0.100s
+Fast retransmit: seq 6115940
+Fast retransmit: seq 6123020
+Timeout retransmit: seq 6124200, RTO: 0.100s

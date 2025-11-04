@@ -102,6 +102,7 @@ def run(expname):
                     
                     h1.cmd(f"bash -c 'python3 p1_server.py {SERVER_IP} {SERVER_PORT} {SWS} > /tmp/h1_server.out 2>&1 &'")
                     time.sleep(.2)
+                    os.remove("./received_data.txt")
                     result = h2.cmd(f"python3 p1_client.py {SERVER_IP} {SERVER_PORT} > /tmp/h2_client.out 2>&1")
                     end_time = time.time()
                     ttc = end_time - start_time
