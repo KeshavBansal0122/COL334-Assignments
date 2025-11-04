@@ -20,7 +20,13 @@ INITIAL_TIMEOUT = 1.0
 ALPHA = 0.125
 BETA = 0.25
 K = 4
-INITIAL_SSTHRESH = 128 * MSS  # Allow slow start to probe multi-MB BDP paths
+INITIAL_SSTHRESH = 128 * MSS
+
+# CUBIC parameters
+CUBIC_C = 0.4  # Scaling constant
+CUBIC_BETA = 0.7  # Multiplicative decrease factor (less aggressive than Reno)
+CUBIC_FAST_CONVERGENCE = True  # Enable fast convergence near previous w_max
+TCP_FRIENDLINESS = True  # Use TCP Reno rate when faster than CUBIC
 
 class CongestionControlServer:
     def __init__(self, server_ip, server_port):
@@ -39,6 +45,14 @@ class CongestionControlServer:
         self.ssthresh = INITIAL_SSTHRESH  # Slow start threshold
         self.in_slow_start = True
         self.bytes_acked_in_rtt = 0
+        
+        # CUBIC state
+        self.w_max = 0  # Window size before last reduction
+        self.epoch_start = 0  # Time when current epoch started
+        self.origin_point = 0  # Origin point of cubic function
+        self.K_cubic = 0  # Time period to reach w_max
+        self.w_tcp = 0  # TCP Reno equivalent window for friendliness check
+        self.ack_cnt = 0  # ACK counter for TCP friendliness
         
         # Window management
         self.base = 0  # First unacknowledged byte
@@ -76,44 +90,101 @@ class CongestionControlServer:
         self.rto = max(0.3, min(self.rto, 3.0))
     
     def on_new_ack(self, acked_bytes):
-        """Handle new ACK and update congestion window (TCP Reno)"""
+        """Handle new ACK and update congestion window (CUBIC)"""
         if self.in_slow_start:
             # Slow start: increase cwnd by MSS for each ACK
             self.cwnd += MSS
             if self.cwnd >= self.ssthresh:
                 self.in_slow_start = False
-                print(f"Exiting slow start: cwnd={self.cwnd/MSS:.1f} MSS, ssthresh={self.ssthresh/MSS:.1f} MSS")
+                self.epoch_start = 0  # Reset epoch for CUBIC
+                print(f"[CUBIC] Exiting slow start: cwnd={self.cwnd/MSS:.1f} MSS, ssthresh={self.ssthresh/MSS:.1f} MSS")
         else:
-            # Congestion avoidance: increase cwnd by roughly MSS per RTT
-            # Standard TCP: cwnd += MSS * MSS / cwnd per ACK
-            # Slightly more aggressive for better utilization on high-delay paths
-            increment = (MSS * MSS) / self.cwnd
-            self.cwnd += increment
+            # CUBIC congestion avoidance
+            current_time = time.time()
+            
+            if self.epoch_start == 0:
+                self.epoch_start = current_time
+                self.ack_cnt = 1
+                self.w_tcp = self.cwnd
+                
+                if self.w_max <= self.cwnd:
+                    self.K_cubic = 0
+                    self.origin_point = self.cwnd
+                    print(f"[CUBIC] Starting new epoch: w_max={self.w_max/MSS:.1f}, K=0, origin={self.origin_point/MSS:.1f}")
+                else:
+                    self.K_cubic = ((self.w_max - self.cwnd) / (CUBIC_C * MSS)) ** (1/3)
+                    self.origin_point = self.w_max
+                    print(f"[CUBIC] Starting new epoch: w_max={self.w_max/MSS:.1f}, K={self.K_cubic:.2f}s, origin={self.origin_point/MSS:.1f}")
+            
+            t = current_time - self.epoch_start
+            target = self.origin_point + CUBIC_C * MSS * ((t - self.K_cubic) ** 3)
+            
+            # TCP friendliness: ensure CUBIC is at least as aggressive as Reno
+            if TCP_FRIENDLINESS:
+                self.ack_cnt += 1
+                # Estimate what TCP Reno would achieve: w_tcp += alpha/w_tcp per ACK
+                # Simplified: w_tcp += 1 MSS per RTT worth of ACKs
+                if self.ack_cnt * MSS >= self.cwnd:
+                    self.w_tcp += MSS
+                    self.ack_cnt = 0
+                
+                # Use TCP rate if it's faster than CUBIC
+                if self.w_tcp > target:
+                    target = self.w_tcp
+            
+            # Update cwnd based on cubic curve (or TCP rate if friendliness is on)
+            if target > self.cwnd:
+                cnt = self.cwnd / (target - self.cwnd)
+                if cnt < 1:
+                    cnt = 1  # Grow at least 1 MSS per RTT
+            else:
+                cnt = 100 * self.cwnd  # Very slow growth near/after w_max
+            
+            self.bytes_acked_in_rtt += acked_bytes
+            if self.bytes_acked_in_rtt >= cnt:
+                old_cwnd = self.cwnd
+                self.cwnd += MSS
+                self.bytes_acked_in_rtt = 0
+                if int(old_cwnd / (10 * MSS)) != int(self.cwnd / (10 * MSS)):
+                    print(f"[CUBIC] cwnd growth: {old_cwnd/MSS:.1f} -> {self.cwnd/MSS:.1f} MSS (t={t:.2f}s, target={target/MSS:.1f}, w_tcp={self.w_tcp/MSS:.1f})")
         
         # Log cwnd for analysis
         if time.time() - self.time_start > 0:
             self.cwnd_log.append((time.time() - self.time_start, self.cwnd / MSS))
     
     def on_timeout(self):
-        """Handle timeout event (TCP Reno)"""
-        print(f"Timeout! cwnd: {self.cwnd/MSS:.1f} -> 1 MSS, ssthresh: {self.ssthresh/MSS:.1f} -> {self.cwnd/(2*MSS):.1f} MSS")
+        """Handle timeout event (CUBIC)"""
+        print(f"[CUBIC TIMEOUT] cwnd: {self.cwnd/MSS:.1f} -> 1 MSS, ssthresh: {self.ssthresh/MSS:.1f} -> {self.cwnd/(2*MSS):.1f} MSS, w_max={self.cwnd/MSS:.1f}")
         self.ssthresh = max(self.cwnd // 2, 2 * MSS)
+        self.w_max = self.cwnd  # Remember window before loss
         self.cwnd = MSS
         self.in_slow_start = True
         self.bytes_acked_in_rtt = 0
         self.dup_ack_count = {}
         self.in_fast_recovery = False
         self.recover = self.base
+        self.epoch_start = 0  # Reset CUBIC epoch
     
     def on_fast_retransmit(self):
-        """Handle fast retransmit (TCP Reno - 3 dup ACKs)"""
-        print(f"Fast retransmit! cwnd: {self.cwnd/MSS:.1f} -> {self.cwnd/(2*MSS):.1f} MSS")
-        self.ssthresh = max(self.cwnd // 2, 2 * MSS)
+        """Handle fast retransmit (CUBIC - 3 dup ACKs)"""
+        # CUBIC uses multiplicative decrease with beta = 0.7 (less aggressive than Reno's 0.5)
+        # Fast convergence: if we haven't reached previous w_max, reduce it further
+        if CUBIC_FAST_CONVERGENCE and self.cwnd < self.w_max:
+            self.w_max = int(self.cwnd * (2 + CUBIC_BETA) / 2)  # Average of cwnd and beta*cwnd
+            print(f"[CUBIC] Fast convergence: reducing w_max to {self.w_max/MSS:.1f}")
+        else:
+            self.w_max = self.cwnd
+        
+        new_cwnd = int(self.cwnd * CUBIC_BETA)
+        print(f"[CUBIC FAST RETRANSMIT] cwnd: {self.cwnd/MSS:.1f} -> {new_cwnd/MSS:.1f} MSS (β={CUBIC_BETA}), w_max={self.w_max/MSS:.1f}")
+        
+        self.ssthresh = max(int(self.cwnd * CUBIC_BETA), 2 * MSS)
         self.cwnd = self.ssthresh + 3 * MSS  # Fast recovery
         self.in_slow_start = False
         self.bytes_acked_in_rtt = 0
         self.in_fast_recovery = True
         self.recover = self.next_seq
+        self.epoch_start = 0  # Reset CUBIC epoch
     
     def get_effective_window(self):
         """Get the effective send window (min of cwnd and in-flight limit)"""
@@ -147,6 +218,13 @@ class CongestionControlServer:
         self.cwnd_log = []
         self.in_fast_recovery = False
         self.recover = 0
+        # Reset CUBIC state
+        self.w_max = 0
+        self.epoch_start = 0
+        self.origin_point = 0
+        self.K_cubic = 0
+        self.w_tcp = 0
+        self.ack_cnt = 0
         
         # Split file into chunks
         chunks = []
@@ -199,6 +277,7 @@ class CongestionControlServer:
                     if self.in_fast_recovery and ack_num >= self.recover:
                         self.in_fast_recovery = False
                         self.cwnd = self.ssthresh
+                        print(f"[CUBIC] Exiting fast recovery: cwnd={self.cwnd/MSS:.1f} MSS")
 
                     # Update congestion window
                     self.on_new_ack(acked_bytes)
@@ -254,10 +333,10 @@ class CongestionControlServer:
         print(f"Final cwnd: {self.cwnd/MSS:.1f} MSS")
         
         # Save cwnd log for analysis
-        # with open('cwnd_log.csv', 'w') as f:
-        #     f.write("time,cwnd_mss\n")
-        #     for t, cwnd in self.cwnd_log:
-        #         f.write(f"{t:.3f},{cwnd:.2f}\n")
+        with open('cwnd_log.csv', 'w') as f:
+            f.write("time,cwnd_mss\n")
+            for t, cwnd in self.cwnd_log:
+                f.write(f"{t:.3f},{cwnd:.2f}\n")
     
     def run(self):
         """Main server loop"""
