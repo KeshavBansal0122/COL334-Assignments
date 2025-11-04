@@ -57,7 +57,7 @@ def run(expname):
     SERVER_PORT = 6555
     SWS = 5 * 1180
             
-    NUM_ITERATIONS = 5
+    NUM_ITERATIONS = 1
     OUTFILE = 'received_data.txt'
     delay_list, loss_list, jitter_list = [], [], []
 
@@ -100,12 +100,16 @@ def run(expname):
 
                     start_time = time.time()
                     
-                    h1.cmd(f"python3 p1_server.py {SERVER_IP} {SERVER_PORT} {SWS} &")
+                    h1.cmd(f"bash -c 'python3 p1_server.py {SERVER_IP} {SERVER_PORT} {SWS} > /tmp/h1_server.out 2>&1 &'")
                     time.sleep(.2)
-                    result = h2.cmd(f"python3 p1_client.py {SERVER_IP} {SERVER_PORT}")
+                    result = h2.cmd(f"python3 p1_client.py {SERVER_IP} {SERVER_PORT} > /tmp/h2_client.out 2>&1")
                     end_time = time.time()
                     ttc = end_time - start_time
 
+                    # Copy log files from Mininet hosts to controller filesystem before stopping network
+                    h1.cmd("cp /tmp/h1_server.out ./h1_server.out 2>/dev/null || true")
+                    h2.cmd("cp /tmp/h2_client.out ./h2_client.out 2>/dev/null || true")
+                    
                     md5_hash = compute_md5(OUTFILE)
                     # write the result to a file
                     f_out.write(f"{i},{LOSS},{DELAY},{JITTER},{md5_hash},{ttc}\n")
