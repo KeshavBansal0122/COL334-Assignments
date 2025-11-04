@@ -20,7 +20,7 @@ INITIAL_TIMEOUT = 1.0
 ALPHA = 0.125
 BETA = 0.25
 K = 4
-INITIAL_SSTHRESH = 64 * MSS  # Initial slow start threshold
+INITIAL_SSTHRESH = 128 * MSS  # Allow slow start to probe multi-MB BDP paths
 
 class CongestionControlServer:
     def __init__(self, server_ip, server_port):
@@ -46,6 +46,8 @@ class CongestionControlServer:
         self.packets = {}  # seq_num -> (data, send_time)
         self.dup_ack_count = {}  # ack_num -> count
         self.last_ack = 0
+        self.in_fast_recovery = False
+        self.recover = 0
         
         # Statistics
         self.cwnd_log = []  # For debugging
@@ -71,7 +73,7 @@ class CongestionControlServer:
         self.estimated_rtt = (1 - ALPHA) * self.estimated_rtt + ALPHA * sample_rtt
         self.dev_rtt = (1 - BETA) * self.dev_rtt + BETA * abs(sample_rtt - self.estimated_rtt)
         self.rto = self.estimated_rtt + K * self.dev_rtt
-        self.rto = max(0.2, min(self.rto, 3.0))
+        self.rto = max(0.3, min(self.rto, 3.0))
     
     def on_new_ack(self, acked_bytes):
         """Handle new ACK and update congestion window (TCP Reno)"""
@@ -82,12 +84,11 @@ class CongestionControlServer:
                 self.in_slow_start = False
                 print(f"Exiting slow start: cwnd={self.cwnd/MSS:.1f} MSS, ssthresh={self.ssthresh/MSS:.1f} MSS")
         else:
-            # Congestion avoidance: increase cwnd by MSS per RTT
-            # Approximate: increment by MSS^2 / cwnd for each ACK
-            self.bytes_acked_in_rtt += acked_bytes
-            if self.bytes_acked_in_rtt >= self.cwnd:
-                self.cwnd += MSS
-                self.bytes_acked_in_rtt = 0
+            # Congestion avoidance: increase cwnd by roughly MSS per RTT
+            # Standard TCP: cwnd += MSS * MSS / cwnd per ACK
+            # Slightly more aggressive for better utilization on high-delay paths
+            increment = (MSS * MSS) / self.cwnd
+            self.cwnd += increment
         
         # Log cwnd for analysis
         if time.time() - self.time_start > 0:
@@ -101,6 +102,8 @@ class CongestionControlServer:
         self.in_slow_start = True
         self.bytes_acked_in_rtt = 0
         self.dup_ack_count = {}
+        self.in_fast_recovery = False
+        self.recover = self.base
     
     def on_fast_retransmit(self):
         """Handle fast retransmit (TCP Reno - 3 dup ACKs)"""
@@ -109,6 +112,8 @@ class CongestionControlServer:
         self.cwnd = self.ssthresh + 3 * MSS  # Fast recovery
         self.in_slow_start = False
         self.bytes_acked_in_rtt = 0
+        self.in_fast_recovery = True
+        self.recover = self.next_seq
     
     def get_effective_window(self):
         """Get the effective send window (min of cwnd and in-flight limit)"""
@@ -136,10 +141,12 @@ class CongestionControlServer:
         self.dup_ack_count = {}
         self.last_ack = 0
         self.cwnd = MSS
-        self.ssthresh = INITIAL_SSTHRESH
+        self.ssthresh = min(INITIAL_SSTHRESH, max(4 * MSS, total_bytes))
         self.in_slow_start = True
         self.bytes_acked_in_rtt = 0
         self.cwnd_log = []
+        self.in_fast_recovery = False
+        self.recover = 0
         
         # Split file into chunks
         chunks = []
@@ -189,6 +196,10 @@ class CongestionControlServer:
                     self.last_ack = ack_num
                     self.dup_ack_count = {}
                     
+                    if self.in_fast_recovery and ack_num >= self.recover:
+                        self.in_fast_recovery = False
+                        self.cwnd = self.ssthresh
+
                     # Update congestion window
                     self.on_new_ack(acked_bytes)
                     
@@ -212,7 +223,8 @@ class CongestionControlServer:
                     
                     # Fast recovery: inflate window for additional dup ACKs
                     elif self.dup_ack_count[ack_num] > 3:
-                        self.cwnd += MSS
+                        if self.in_fast_recovery:
+                            self.cwnd += MSS
             
             except socket.timeout:
                 pass

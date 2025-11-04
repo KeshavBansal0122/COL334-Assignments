@@ -285,7 +285,7 @@ def experiment_fixed_bandwidth(exp_out, num_iterations=1):
 
 
 def experiment_varying_loss(exp_out, num_iterations=1):
-    loss_rates = [0.0, 0.5, 1.0, 1.5, 2.0]
+    loss_rates = [0.5, 1.0, 1.5, 2.0]
     for loss in loss_rates:
         for i in range(num_iterations):
             run_trial(exp_out, bw=100, loss=loss, iteration=i,buffer_size=420)
