@@ -1,0 +1,308 @@
+# Quick Start Guide - Assignment 4
+
+## 🚀 Fast Track to Completion
+
+### Step 1: Verify Installation ✓
+
+```bash
+# Check Python
+python3 --version  # Should be 3.8+
+
+# Install dependencies
+pip3 install matplotlib numpy pandas
+
+# Verify Mininet (optional - for experiments)
+sudo mn --version
+```
+
+---
+
+### Step 2: Quick Local Tests (2 minutes)
+
+```bash
+cd /home/aryan/Desktop/2501-col334-assignment4
+
+# Test Part 1 - Reliability
+chmod +x test_part1.sh
+./test_part1.sh
+
+# Test Part 2 - Congestion Control  
+chmod +x test_part2.sh
+./test_part2.sh
+```
+
+**Expected Output**: Both should show "✓ SUCCESS: File transferred correctly!"
+
+---
+
+### Step 3: Run Mininet Experiments
+
+#### Setup (One Time):
+```bash
+# Terminal 1: Start Ryu Controller (keep running)
+ryu-manager ryu.app.simple_switch_13
+```
+
+#### Part 1 Experiments:
+```bash
+# Terminal 2
+cd part1
+
+# Experiment 1: Loss Rate (1-5%)
+sudo python3 p1_exp.py loss
+
+# Experiment 2: Delay Jitter (20-100ms)
+sudo python3 p1_exp.py jitter
+
+# Generate plots
+python3 analyze_p1.py combined
+```
+
+**Output Files**:
+- `reliability_loss.csv`
+- `reliability_jitter.csv`
+- `part1_loss_results.png`
+- `part1_jitter_results.png`
+- `part1_combined_results.png`
+
+#### Part 2 Experiments:
+```bash
+# Terminal 2
+cd part2
+
+# Experiment 1: Fixed Bandwidth
+sudo python3 p2_exp.py fixed_bandwidth
+python3 analyze_p2.py fixed_bandwidth
+# Output: p2_fixed_bandwidth.png
+
+# Experiment 2: Varying Loss
+sudo python3 p2_exp.py varying_loss
+python3 analyze_p2.py varying_loss
+# Output: p2_varying_loss.png
+
+# Experiment 3: Asymmetric Flows
+sudo python3 p2_exp.py asymmetric_flows
+python3 analyze_p2.py asymmetric_flows
+# Output: p2_asymmetric_flows.png
+
+# Experiment 4: Background UDP
+sudo python3 p2_exp.py background_udp
+python3 analyze_p2.py background_udp
+# Output: p2_background_udp.png
+```
+
+---
+
+### Step 4: Write Reports
+
+#### Part 1 Report (in `part1/part1.txt`):
+
+```
+PART 1: RELIABLE UDP FILE TRANSFER
+===================================
+
+1. PROTOCOL DESIGN
+------------------
+[Describe your implementation - about 0.5 pages]
+
+Header Structure:
+- Sequence Number (4 bytes): Byte-oriented sequence number
+- Reserved (16 bytes): For future extensions
+- Data (up to 1180 bytes): File data
+
+Key Features:
+- Sliding window protocol with configurable SWS
+- Cumulative ACKs (TCP-style)
+- Adaptive RTO: RTO = EstimatedRTT + 4 * DevRTT
+- Fast retransmit on 3 duplicate ACKs
+- Out-of-order packet buffering
+
+2. EXPERIMENTAL RESULTS
+-----------------------
+[Insert your plots and analyze them - about 1.5 pages]
+
+Figure 1: Download Time vs Packet Loss Rate
+[Describe what you observe - e.g., "As loss increases from 1% to 5%, 
+download time increases from X to Y seconds due to more retransmissions..."]
+
+Figure 2: Download Time vs Delay Jitter  
+[Describe observations - e.g., "Higher jitter leads to longer download 
+times because RTO must be conservative to avoid spurious retransmissions..."]
+
+Key Observations:
+- [Your analysis here]
+- [Any interesting patterns]
+- [Performance characteristics]
+```
+
+#### Part 2 Report (in `part2/part2.txt`):
+
+```
+PART 2: CONGESTION CONTROL
+===========================
+
+1. ALGORITHM DESCRIPTION
+------------------------
+[Describe TCP Reno implementation - about 0.5 pages]
+
+Implemented TCP Reno with:
+- Slow Start: cwnd doubles per RTT (exponential growth)
+- Congestion Avoidance: cwnd += MSS per RTT (linear growth)
+- Fast Retransmit: Retransmit on 3 duplicate ACKs
+- Fast Recovery: cwnd = ssthresh + 3*MSS
+- Timeout: Reset to 1 MSS, ssthresh = cwnd/2
+
+Initial Parameters:
+- cwnd = 1 MSS (1180 bytes)
+- ssthresh = 64 MSS
+- MSS = 1180 bytes
+
+2. EXPERIMENTAL RESULTS
+-----------------------
+[Insert plots and analyze - about 1.5 pages]
+
+Experiment 1: Fixed Bandwidth (100-1000 Mbps)
+Figure 1: Link Utilization and JFI vs Bandwidth
+[Analysis: "Link utilization remains high (~90-95%) across all bandwidths,
+demonstrating good scalability. JFI stays close to 1.0, showing fair 
+bandwidth sharing between the two flows..."]
+
+Experiment 2: Varying Loss (0-2%)
+Figure 2: Link Utilization vs Loss Rate
+[Analysis: "As loss increases, utilization decreases gradually. The
+congestion control algorithm correctly reduces sending rate in response
+to packet loss..."]
+
+Experiment 3: Asymmetric Flows (RTT difference)
+Figure 3: JFI vs Client2 Delay
+[Analysis: "With increasing RTT asymmetry, fairness decreases slightly.
+The flow with lower RTT gains advantage because it can react faster..."]
+
+Experiment 4: Background UDP Traffic
+Figure 4: Performance under UDP Traffic
+[Analysis: "TCP flows maintain fairness among themselves even with
+bursty UDP traffic. Link utilization varies with UDP load..."]
+```
+
+---
+
+### Step 5: Final Checklist
+
+#### Part 1 (`part1/` directory):
+- [x] `p1_server.py` (provided)
+- [x] `p1_client.py` (provided)
+- [ ] `part1.txt` (YOU WRITE - max 2 pages)
+- [ ] `reliability_loss.csv` (generated by experiments)
+- [ ] `reliability_jitter.csv` (generated by experiments)
+- [ ] Plot images (generated by analyze_p1.py)
+
+#### Part 2 (`part2/` directory):
+- [x] `p2_server.py` (provided)
+- [x] `p2_client.py` (provided)
+- [ ] `part2.txt` (YOU WRITE - max 2 pages)
+- [ ] CSV files for all 4 experiments (generated)
+- [ ] Plot images for all 4 experiments (generated)
+
+---
+
+## 🎯 Time Estimate
+
+- **Local Testing**: 5 minutes
+- **Part 1 Experiments**: 30-45 minutes
+- **Part 1 Report**: 1-2 hours
+- **Part 2 Experiments**: 1-2 hours (4 experiments)
+- **Part 2 Report**: 1-2 hours
+- **Total**: ~4-6 hours
+
+---
+
+## 🔧 Troubleshooting
+
+### Issue: "Connection refused"
+```bash
+# Check if port is in use
+netstat -tuln | grep 6555
+
+# Kill any existing processes
+pkill -f p1_server
+pkill -f p2_server
+```
+
+### Issue: "Module not found"
+```bash
+pip3 install matplotlib numpy pandas
+```
+
+### Issue: Mininet experiments hang
+```bash
+# Clean up Mininet
+sudo mn -c
+
+# Restart Ryu controller
+pkill -f ryu-manager
+ryu-manager ryu.app.simple_switch_13
+```
+
+### Issue: Permission denied on test scripts
+```bash
+chmod +x test_part1.sh test_part2.sh
+```
+
+---
+
+## 📊 What Makes a Good Report?
+
+### DO:
+✓ Include clear plots with labels and legends
+✓ Explain trends you observe in the data
+✓ Connect results to theory (e.g., "TCP Reno reduces cwnd by half on loss")
+✓ Use proper technical terminology
+✓ Keep it concise (2 pages max per part)
+
+### DON'T:
+✗ Just describe what the code does (we can read it)
+✗ Include code snippets (not needed)
+✗ Make plots too small to read
+✗ Forget confidence intervals (Part 1)
+✗ Skip the analysis (plots alone aren't enough)
+
+---
+
+## 📚 Key Concepts to Mention
+
+### Part 1:
+- Sliding window protocol
+- Cumulative ACKs vs Selective ACKs
+- RTT estimation and RTO calculation
+- Fast retransmit advantage over timeout
+- Trade-off between reliability and performance
+
+### Part 2:
+- Slow start vs congestion avoidance
+- AIMD (Additive Increase, Multiplicative Decrease)
+- Fast retransmit/recovery benefits
+- Fairness vs efficiency trade-off
+- Impact of RTT on fairness
+
+---
+
+## 🎓 Final Tips
+
+1. **Run experiments overnight** if needed (they can take time)
+2. **Save all CSV files** - you might need to re-generate plots
+3. **Take screenshots** of successful runs as backup
+4. **Write reports as you go** - easier than doing it all at once
+5. **Test on different network conditions** to understand behavior
+6. **Compare your results** with expected TCP Reno behavior
+
+---
+
+## ✅ You're All Set!
+
+Everything is implemented. Just:
+1. Run the experiments ✓
+2. Generate the plots ✓
+3. Write the reports ✓
+4. Submit! ✓
+
+Good luck! 🚀
