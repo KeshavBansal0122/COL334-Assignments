@@ -82,6 +82,8 @@ def compare_value(your_val: float, bench_val: float, tolerance: float, higher_is
     diff_pct = (diff / bench_val * 100) if bench_val != 0 else 0
     
     if abs(diff) <= tolerance:
+        if (diff > 0 and higher_is_better) or (diff < 0 and not higher_is_better):
+            return Colors.CYAN, "≤"
         return Colors.YELLOW, "≈"  # Similar
     
     if higher_is_better:
